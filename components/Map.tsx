@@ -57,6 +57,7 @@ export default function Map() {
   const [snapshots, setSnapshots] = useState<SnapshotMeta[]>([]);
   const [activeSnapshot, setActiveSnapshot] = useState<string | null>(null);
   const [snapshotsOpen, setSnapshotsOpen] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const updateMap = useCallback(
     (geojson: GeoJSON.FeatureCollection, trails: GeoJSON.FeatureCollection) => {
@@ -81,6 +82,7 @@ export default function Map() {
     }
     const trails = data.trails ?? { type: "FeatureCollection", features: [] };
     updateMap(data, trails);
+    setLoading(false);
   }
 
   async function handleRefresh() {
@@ -268,16 +270,18 @@ export default function Map() {
         }}
       >
         <span
+          className={loading ? "status-dot loading" : "status-dot"}
           style={{
             width: 8,
             height: 8,
             borderRadius: "50%",
-            background: shipCount > 0 ? "#00ff88" : "#ffaa00",
+            background: loading ? "#ffaa00" : shipCount > 0 ? "#00ff88" : "#ffaa00",
             display: "inline-block",
           }}
         />
         <span>
-          <strong>Persian Gulf</strong> &mdash; {shipCount} ships
+          <strong>Persian Gulf</strong> &mdash;{" "}
+          {loading ? "Loading..." : `${shipCount} ships`}
         </span>
         <button
           onClick={handleRefresh}
