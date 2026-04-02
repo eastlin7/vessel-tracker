@@ -34,3 +34,52 @@ body {
   color: #666;
   cursor: wait;
 }
+
+/* Snapshots panel — desktop: top-right, mobile: below status bar */
+.snapshots-panel {
+  position: absolute;
+  top: 12px;
+  right: 50px;
+  font-family: system-ui, sans-serif;
+  font-size: 12px;
+  z-index: 10;
+}
+
+@media (max-width: 640px) {
+  .snapshots-panel {
+    top: 48px;
+    left: 12px;
+    right: auto;
+  }
+}
+
+.snapshots-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #ccc;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+  font-size: 12px;
+  font-family: system-ui, sans-serif;
+  transition: background 0.15s;
+}
+
+.snapshots-toggle:hover {
+  background: rgba(30, 30, 30, 0.9);
+  color: #fff;
+}
+
+.snapshots-list {
+  margin-top: 4px;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(4px);
+  border-radius: 8px;
+  padding: 6px 4px;
+  max-height: 40vh;
+  overflow-y: auto;
+}

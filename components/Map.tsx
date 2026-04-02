@@ -56,6 +56,7 @@ export default function Map() {
   const [refreshing, setRefreshing] = useState(false);
   const [snapshots, setSnapshots] = useState<SnapshotMeta[]>([]);
   const [activeSnapshot, setActiveSnapshot] = useState<string | null>(null);
+  const [snapshotsOpen, setSnapshotsOpen] = useState(false);
 
   const updateMap = useCallback(
     (geojson: GeoJSON.FeatureCollection, trails: GeoJSON.FeatureCollection) => {
@@ -328,49 +329,77 @@ export default function Map() {
 
       {/* Snapshot selector */}
       {snapshots.length > 0 && (
-        <div
-          style={{
-            position: "absolute",
-            top: 12,
-            right: 50,
-            background: "rgba(0,0,0,0.8)",
-            color: "#fff",
-            padding: "8px 12px",
-            borderRadius: 8,
-            fontSize: 12,
-            fontFamily: "system-ui, sans-serif",
-            backdropFilter: "blur(4px)",
-            maxHeight: "50vh",
-            overflowY: "auto",
-          }}
-        >
-          <div style={{ marginBottom: 6, fontWeight: "bold", fontSize: 11, color: "#888" }}>
-            SNAPSHOTS ({snapshots.length})
-          </div>
-          {snapshots.map((s) => {
-            const isActive = s.id === activeSnapshot;
-            const d = new Date(s.fetchedAt);
-            return (
-              <div
-                key={s.id}
-                onClick={() => loadSnapshot(s.id)}
-                style={{
-                  padding: "4px 8px",
-                  marginBottom: 2,
-                  borderRadius: 4,
-                  cursor: "pointer",
-                  background: isActive ? "rgba(255,255,255,0.1)" : "transparent",
-                  borderLeft: isActive ? "2px solid #00ff88" : "2px solid transparent",
-                  whiteSpace: "nowrap",
-                }}
-              >
-                <span style={{ color: isActive ? "#00ff88" : "#ccc" }}>
-                  {d.toLocaleDateString()} {d.toLocaleTimeString()}
-                </span>
-                <span style={{ color: "#666", marginLeft: 6 }}>{s.count} ships</span>
-              </div>
-            );
-          })}
+        <div className="snapshots-panel">
+          <button
+            className="snapshots-toggle"
+            onClick={() => setSnapshotsOpen(!snapshotsOpen)}
+          >
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+            <span>Snapshots ({snapshots.length})</span>
+            <svg
+              width="10"
+              height="10"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              style={{
+                transform: snapshotsOpen ? "rotate(180deg)" : "rotate(0)",
+                transition: "transform 0.2s",
+              }}
+            >
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          {snapshotsOpen && (
+            <div className="snapshots-list">
+              {snapshots.map((s) => {
+                const isActive = s.id === activeSnapshot;
+                const d = new Date(s.fetchedAt);
+                return (
+                  <div
+                    key={s.id}
+                    onClick={() => {
+                      loadSnapshot(s.id);
+                      setSnapshotsOpen(false);
+                    }}
+                    style={{
+                      padding: "4px 8px",
+                      marginBottom: 2,
+                      borderRadius: 4,
+                      cursor: "pointer",
+                      background: isActive
+                        ? "rgba(255,255,255,0.1)"
+                        : "transparent",
+                      borderLeft: isActive
+                        ? "2px solid #00ff88"
+                        : "2px solid transparent",
+                      whiteSpace: "nowrap",
+                    }}
+                  >
+                    <span style={{ color: isActive ? "#00ff88" : "#ccc" }}>
+                      {d.toLocaleDateString()} {d.toLocaleTimeString()}
+                    </span>
+                    <span style={{ color: "#666", marginLeft: 6 }}>
+                      {s.count} ships
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
+          )}
         </div>
       )}
     </div>
