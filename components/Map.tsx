@@ -217,9 +217,11 @@ export default function Map() {
           .setLngLat(coords as [number, number])
           .setHTML(
             `<div style="font-family:system-ui;font-size:13px;line-height:1.5">
-              <strong>${props.flagEmoji} ${props.name || "Unknown"}</strong><br/>
+              <strong>${props.flagEmoji} ${props.name || "Unknown"}</strong>
+              ${props.shadowFleet === true || props.shadowFleet === "true" ? '<span style="color:#ff4444;font-weight:bold;margin-left:4px">[Shadow Fleet]</span>' : ""}<br/>
               <span style="color:#aaa">Flag:</span> ${props.flagCountry}<br/>
               <span style="color:#aaa">Alignment:</span> ${props.alignment === "green" ? "US-aligned" : props.alignment === "blue" ? "EU-aligned" : props.alignment === "red" ? "China/Russia-aligned" : "Non-aligned"}<br/>
+              ${props.sanctioners ? `<span style="color:#aaa">Sanctioned by:</span> ${props.sanctioners}<br/>` : ""}
               <span style="color:#aaa">Speed:</span> ${props.sog} kn<br/>
               <span style="color:#aaa">MMSI:</span> ${props.mmsi}
             </div>`

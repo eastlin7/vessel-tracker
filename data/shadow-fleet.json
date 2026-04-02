@@ -1,0 +1,7983 @@
+{
+  "source": "FleetLeaks - aggregated from official sanctions lists (US, EU, UK, CA, AU, NZ)",
+  "fetchedAt": "2026-04-02",
+  "count": 672,
+  "vessels": [
+    {
+      "imo": "9275763",
+      "mmsi": "577535000",
+      "name": "Blage",
+      "flag": "Vanuatu",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA"
+      ]
+    },
+    {
+      "imo": "9307205",
+      "mmsi": "314001150",
+      "name": "LNG SOARS",
+      "flag": "Barbados",
+      "vesselType": "LNG Tanker",
+      "sanctioners": [
+        "UK"
+      ]
+    },
+    {
+      "imo": "9715270",
+      "mmsi": "273251900",
+      "name": "Zaid",
+      "flag": "Russia",
+      "vesselType": "Bulk Carrier",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9720263",
+      "mmsi": "273254900",
+      "name": "Zafar",
+      "flag": "Russia",
+      "vesselType": "Bulk Carrier",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9573816",
+      "mmsi": "273292990",
+      "name": "Matros Pozynich",
+      "flag": "Russia",
+      "vesselType": "Bulk Carrier",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9515539",
+      "mmsi": "273292290",
+      "name": "Mikhail Nenashev",
+      "flag": "Russia",
+      "vesselType": "Bulk Carrier",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9550137",
+      "mmsi": "273297880",
+      "name": "Matros Koshka",
+      "flag": "Russia",
+      "vesselType": "Bulk Carrier",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9306809",
+      "mmsi": "477165100",
+      "name": "Innovator",
+      "flag": "Hong Kong",
+      "vesselType": "Chemical/Products Tanker",
+      "sanctioners": [
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9236248",
+      "mmsi": "620999873",
+      "name": "Fenghuang",
+      "flag": "Madagascar",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9237412",
+      "mmsi": "570292000",
+      "name": "Hanson",
+      "flag": "Mozambique",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9186625",
+      "mmsi": "305077000",
+      "name": "Star Mm",
+      "flag": "Antigua &amp; Barbuda",
+      "vesselType": "Crude Oil Tanker",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9211896",
+      "mmsi": "422891100",
+      "name": "Zal Pars 3",
+      "flag": "Iran",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9037123",
+      "mmsi": "352004240",
+      "name": "SC CUTTA",
+      "flag": "Cameroon",
+      "vesselType": "Chemical/Products Tanker",
+      "sanctioners": [
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9867621",
+      "mmsi": "423543100",
+      "name": "Khankendi",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9645061",
+      "mmsi": "273355680",
+      "name": "Aleksey Savrasov",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9640499",
+      "mmsi": "273351450",
+      "name": "Ivan Kramskoy",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9621596",
+      "mmsi": "273258520",
+      "name": "Stanislav Govorukhin",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker",
+      "sanctioners": [
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9503304",
+      "mmsi": "273335920",
+      "name": "General Skobelev",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9498171",
+      "mmsi": "423306100",
+      "name": "Zagatala",
+      "flag": "Azerbaijan",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9472634",
+      "mmsi": "352005472",
+      "name": "Aura 1",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9247778",
+      "mmsi": "620800101",
+      "name": "Breez",
+      "flag": "Comoros",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9439539",
+      "mmsi": "314001144",
+      "name": "Bolu",
+      "flag": "Cambodia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9252955",
+      "mmsi": "632001142",
+      "name": "Briont",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9224439",
+      "mmsi": "511101363",
+      "name": "Caroline Bezengi",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9194012",
+      "mmsi": "273435910",
+      "name": "Anabar",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9083184",
+      "mmsi": "273352750",
+      "name": "Birthe Theresi",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "8918540",
+      "mmsi": "273353430",
+      "name": "Bergen T",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "8915550",
+      "mmsi": "273358610",
+      "name": "Noyabrsk",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9810513",
+      "mmsi": "423520100",
+      "name": "Karabakh",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9385233",
+      "mmsi": "550071148",
+      "name": "BAYAZE D",
+      "flag": "Russia",
+      "vesselType": "Bulk Carrier |  Navire vraquier",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9286073",
+      "mmsi": "613902500",
+      "name": "RCELEBRA",
+      "flag": "Cameroon",
+      "vesselType": "Crude Oil Tanker",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9266865",
+      "mmsi": "667001237",
+      "name": "Bivola",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9251810",
+      "mmsi": "650610000",
+      "name": "BLUEBELL",
+      "flag": "Mozambique",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9953509",
+      "mmsi": "273264340",
+      "name": "BURAN",
+      "flag": "Russia",
+      "vesselType": "LNG Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9912696",
+      "mmsi": "273296770",
+      "name": "YURI BABAEV",
+      "flag": "Russia",
+      "vesselType": "Research Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9876373",
+      "mmsi": "0",
+      "name": "ALEXANDER BEGGROV",
+      "flag": "Russia",
+      "vesselType": "Products Tanker",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9876361",
+      "mmsi": "395066040",
+      "name": "ALEXEY BOGOLYUBOV",
+      "flag": "Russia",
+      "vesselType": "Products Tanker",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9842217",
+      "mmsi": "0",
+      "name": "NURSULTAN NAZARBAYEV",
+      "flag": "Russia",
+      "vesselType": "Crude Oil Tanker",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9308077",
+      "mmsi": "613271708",
+      "name": "Tyche 1",
+      "flag": "Cameroon",
+      "vesselType": "Chemical/Products Tanker",
+      "sanctioners": [
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9321562",
+      "mmsi": "668116306",
+      "name": "Maverick",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9297149",
+      "mmsi": "273612850",
+      "name": "Revanche",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9294123",
+      "mmsi": "511101825",
+      "name": "Chongchon",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9292046",
+      "mmsi": "314960000",
+      "name": "NOVA CREST",
+      "flag": "Barbados",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9252400",
+      "mmsi": "629009388",
+      "name": "CELINE",
+      "flag": "Botswana",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9235000",
+      "mmsi": "621819083",
+      "name": "Coatlicue",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "8920581",
+      "mmsi": "273257120",
+      "name": "Melito Carrier",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9655456",
+      "mmsi": "256245000",
+      "name": "CLEAN VISION",
+      "flag": "Malta",
+      "vesselType": "LNG Tanker",
+      "sanctioners": [
+        "UK"
+      ]
+    },
+    {
+      "imo": "9637492",
+      "mmsi": "538005350",
+      "name": "CLEAN OCEAN",
+      "flag": "Marshall Islands",
+      "vesselType": "LNG Tanker",
+      "sanctioners": [
+        "UK"
+      ]
+    },
+    {
+      "imo": "9637507",
+      "mmsi": "538005351",
+      "name": "CLEAN PLANET",
+      "flag": "Marshall Islands",
+      "vesselType": "LNG Tanker",
+      "sanctioners": [
+        "UK"
+      ]
+    },
+    {
+      "imo": "9436020",
+      "mmsi": "352005238",
+      "name": "Centurion I",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9233777",
+      "mmsi": "305203000",
+      "name": "OCEAN II",
+      "flag": "Cameroon",
+      "vesselType": "Crude Oil Tanker",
+      "sanctioners": [
+        "UK"
+      ]
+    },
+    {
+      "imo": "9313498",
+      "mmsi": "352005217",
+      "name": "Jacklyn",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9945136",
+      "mmsi": "273613800",
+      "name": "VYACHESLAV ARSHINOV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9934498",
+      "mmsi": "649116000",
+      "name": "Glory Ocean",
+      "flag": "MALI",
+      "vesselType": "Heavy Load Carrier | Porteur de charges lourdes",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "US"
+      ]
+    },
+    {
+      "imo": "9382712",
+      "mmsi": "668116346",
+      "name": "Denver",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9382073",
+      "mmsi": "307170000",
+      "name": "Everdine",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9323314",
+      "mmsi": "626479000",
+      "name": "Aditya",
+      "flag": "Cameroon",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9272931",
+      "mmsi": "630001159",
+      "name": "Garuda",
+      "flag": "Sierra Leone",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9260483",
+      "mmsi": "273448000",
+      "name": "Armada Leader",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9036284",
+      "mmsi": "273376490",
+      "name": "Nordstraum",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "8414477",
+      "mmsi": "273350220",
+      "name": "Flandria",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9299135",
+      "mmsi": "636022672",
+      "name": "MANDALA",
+      "flag": "Cameroon",
+      "vesselType": "Oil/Chemical Tanker",
+      "sanctioners": [
+        "UK"
+      ]
+    },
+    {
+      "imo": "9377042",
+      "mmsi": "273311240",
+      "name": "Armada Explorer",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9377779",
+      "mmsi": "352005252",
+      "name": "VOZROZHDENIYE",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9286281",
+      "mmsi": "667002428",
+      "name": "Samadha",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9274331",
+      "mmsi": "669513000",
+      "name": "San Damian",
+      "flag": "Russia",
+      "vesselType": "General Cargo | Cargo classique",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9255684",
+      "mmsi": "629009590",
+      "name": "Golden Eagle",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9247429",
+      "mmsi": "667002491",
+      "name": "Indri",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9230971",
+      "mmsi": "352421000",
+      "name": "Skadi",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9945124",
+      "mmsi": "273615800",
+      "name": "GENNADY EGOROV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9953511",
+      "mmsi": "273265340",
+      "name": "VOSKHOD",
+      "flag": "Russia",
+      "vesselType": "LNG Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9247194",
+      "mmsi": "354159000",
+      "name": "KUNPENG",
+      "flag": "Panama",
+      "vesselType": "LNG Tanker",
+      "sanctioners": [
+        "UK"
+      ]
+    },
+    {
+      "imo": "9419450",
+      "mmsi": "374987000",
+      "name": "Jewel",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9439541",
+      "mmsi": "632001147",
+      "name": "Nemrut",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9433016",
+      "mmsi": "632001148",
+      "name": "Apate",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9400980",
+      "mmsi": "620800030",
+      "name": "EVALI",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9387279",
+      "mmsi": "632001149",
+      "name": "Ethera",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9336517",
+      "mmsi": "626443000",
+      "name": "Uriel",
+      "flag": "Sierra Leone",
+      "vesselType": "Chemical/Products Tanker",
+      "sanctioners": [
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9296597",
+      "mmsi": "667001378",
+      "name": "Prometei",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9389095",
+      "mmsi": "667002020",
+      "name": "TRIUMF",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9354636",
+      "mmsi": "273318520",
+      "name": "Flura",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9332028",
+      "mmsi": "629009632",
+      "name": "GRIF",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "8867129",
+      "mmsi": "273341100",
+      "name": "Volgoneft 160",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "8231057",
+      "mmsi": "273349500",
+      "name": "Volgoneft 251",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9915090",
+      "mmsi": "273256300",
+      "name": "SAAM FSU",
+      "flag": "Russia",
+      "vesselType": "FSO Gas Unit",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "US"
+      ]
+    },
+    {
+      "imo": "9915105",
+      "mmsi": "273259900",
+      "name": "Koryak FSU",
+      "flag": "Panama",
+      "vesselType": "FSO Gas Unit",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "US"
+      ]
+    },
+    {
+      "imo": "9851115",
+      "mmsi": "273448220",
+      "name": "POLA ANFISA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9849459",
+      "mmsi": "273416980",
+      "name": "POLA SOFIA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9849461",
+      "mmsi": "273422380",
+      "name": "POLA FEODOSIA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9849473",
+      "mmsi": "273423690",
+      "name": "POLA FIVA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9849435",
+      "mmsi": "273414870",
+      "name": "POLA FILOFEIA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9753739",
+      "mmsi": "273396260",
+      "name": "FEDOR USHAKOV",
+      "flag": "Russia",
+      "vesselType": "Supply Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9747194",
+      "mmsi": "273451870",
+      "name": "ARTEMIS OFFSHORE",
+      "flag": "Russia",
+      "vesselType": "Offshore Support Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9690224",
+      "mmsi": "273377120",
+      "name": "Transflot-03",
+      "flag": "Russia",
+      "vesselType": "Oil/Chemical Tanker",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9690212",
+      "mmsi": "273340640",
+      "name": "Transflot-02",
+      "flag": "Russia",
+      "vesselType": "Oil/Chemical Tanker",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9620633",
+      "mmsi": "629009686",
+      "name": "FINVAL",
+      "flag": "Russia",
+      "vesselType": "Bulk Carrier",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9258478",
+      "mmsi": "477205700",
+      "name": "Gt Honor",
+      "flag": "Hong Kong, China",
+      "vesselType": "Crude Oil Tanker",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9412452",
+      "mmsi": "352004926",
+      "name": "Nilanga",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9299707",
+      "mmsi": "632001154",
+      "name": "Guanyin",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9282481",
+      "mmsi": "632001144",
+      "name": "Tagor",
+      "flag": "Guinea",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9389083",
+      "mmsi": "352005486",
+      "name": "TIGER 6",
+      "flag": "Panama",
+      "vesselType": "Crude Oil Tanker",
+      "sanctioners": [
+        "UK"
+      ]
+    },
+    {
+      "imo": "9389071",
+      "mmsi": "352005354",
+      "name": "Tango 2",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9323364",
+      "mmsi": "352004893",
+      "name": "Sinar G",
+      "flag": "Cameroon",
+      "vesselType": "Oil/Chemical Tanker",
+      "sanctioners": [
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9185528",
+      "mmsi": "352004991",
+      "name": "Gelor",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9224441",
+      "mmsi": "352003221",
+      "name": "GRUS I",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9430272",
+      "mmsi": "352004196",
+      "name": "Jin Hui",
+      "flag": "Panama",
+      "vesselType": "Chemical/Products Tanker",
+      "sanctioners": [
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9164718",
+      "mmsi": "273253080",
+      "name": "Thoth",
+      "flag": "Russia",
+      "vesselType": "Oil/Chemical Tanker",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "8010427",
+      "mmsi": "273345030",
+      "name": "Ophelia",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9311751",
+      "mmsi": "271053525",
+      "name": "Hitit",
+      "flag": "Turkey",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9293997",
+      "mmsi": "626463000",
+      "name": "Khalasi",
+      "flag": "Gabon",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9284116",
+      "mmsi": "423205100",
+      "name": "Shah Ismayil Khatai",
+      "flag": "Azerbaijan",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "CA"
+      ]
+    },
+    {
+      "imo": "9779941",
+      "mmsi": "423519100",
+      "name": "Shusha",
+      "flag": "Azerbaijan",
+      "vesselType": "Crude Oil Tanker",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9390317",
+      "mmsi": "273358130",
+      "name": "Marinstraum",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9321718",
+      "mmsi": "620800029",
+      "name": "ORVI",
+      "flag": "Comoros",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9292199",
+      "mmsi": "352003627",
+      "name": "Kayseri",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9263693",
+      "mmsi": "477642800",
+      "name": "Sino Star",
+      "flag": "Hong Kong",
+      "vesselType": "Oil/Chemical Tanker",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9369617",
+      "mmsi": "273314230",
+      "name": "Nizami Ganjavi",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9281009",
+      "mmsi": "613829601",
+      "name": "JI HANG",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9599341",
+      "mmsi": "273253180",
+      "name": "JUPITER I",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9538892",
+      "mmsi": "273396130",
+      "name": "URSA MAJOR",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9405057",
+      "mmsi": "613522701",
+      "name": "JUN TONG",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9397535",
+      "mmsi": "273265590",
+      "name": "Jupiter",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9354301",
+      "mmsi": "629009672",
+      "name": "JAGGER",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9354313",
+      "mmsi": "461000258",
+      "name": "JASMINE",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9353113",
+      "mmsi": "629009040",
+      "name": "JUN MA",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9346744",
+      "mmsi": "667002086",
+      "name": "Ma Jin",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9319703",
+      "mmsi": "461000285",
+      "name": "SIRAJ",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9304825",
+      "mmsi": "630001182",
+      "name": "Jaldhara",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9299886",
+      "mmsi": "577376000",
+      "name": "JASPER",
+      "flag": "Panama",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9299733",
+      "mmsi": "667002024",
+      "name": "Nagarjuna",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9299680",
+      "mmsi": "419001990",
+      "name": "Cangjie",
+      "flag": "India",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9290335",
+      "mmsi": "667002023",
+      "name": "Jumbo",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9289738",
+      "mmsi": "620800042",
+      "name": "GENJI",
+      "flag": "Cameroon",
+      "vesselType": "Chemical/Products Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9323326",
+      "mmsi": "668116328",
+      "name": "Katy",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9290373",
+      "mmsi": "352003605",
+      "name": "Konya",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "8920579",
+      "mmsi": "273250410",
+      "name": "Navik",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9265873",
+      "mmsi": "667002405",
+      "name": "KAMELOT",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil/Chemical Tanker",
+      "sanctioners": [
+        "UK"
+      ]
+    },
+    {
+      "imo": "9637961",
+      "mmsi": "273387430",
+      "name": "Sergey Terskov",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9435337",
+      "mmsi": "273338920",
+      "name": "Akhty",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9388027",
+      "mmsi": "632001152",
+      "name": "Manaslu",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9408190",
+      "mmsi": "314001145",
+      "name": "Samos",
+      "flag": "Barbados",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9336490",
+      "mmsi": "632001160",
+      "name": "Myra",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9347308",
+      "mmsi": "352002835",
+      "name": "Aura Maris",
+      "flag": "Panama",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9315745",
+      "mmsi": "314001007",
+      "name": "Marquise",
+      "flag": "Cameroon",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9236743",
+      "mmsi": "273210220",
+      "name": "Primorye",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9408695",
+      "mmsi": "632001151",
+      "name": "Tassos",
+      "flag": "Guinea",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9299678",
+      "mmsi": "667001243",
+      "name": "Prisma",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9924352",
+      "mmsi": "273294550",
+      "name": "ALPHA HERMES",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9922122",
+      "mmsi": "273297510",
+      "name": "LEONID PESTRIKOV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9924340",
+      "mmsi": "273296030",
+      "name": "ALPHA HELIOS",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9904675",
+      "mmsi": "0",
+      "name": "PYOTR STOLYPIN",
+      "flag": "Russia",
+      "vesselType": "LNG Carrier",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9903877",
+      "mmsi": "273215580",
+      "name": "POLA MIROPIA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9903853",
+      "mmsi": "273215270",
+      "name": "POLA ALEXIA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9903865",
+      "mmsi": "273214080",
+      "name": "POLA MARINA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9903827",
+      "mmsi": "273218740",
+      "name": "POLA YAROSLAVA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "CA",
+        "US"
+      ]
+    },
+    {
+      "imo": "9903839",
+      "mmsi": "273210550",
+      "name": "POLA VARVARA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9903841",
+      "mmsi": "273214060",
+      "name": "POLA AGATA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9323340",
+      "mmsi": "334873000",
+      "name": "Tranquil Sea",
+      "flag": "Honduras",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9261401",
+      "mmsi": "511101792",
+      "name": "Quartz",
+      "flag": "Palau",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9402471",
+      "mmsi": "461000282",
+      "name": "QASR",
+      "flag": "Equatorial Guinea",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9332781",
+      "mmsi": "629009714",
+      "name": "AQUA TITAN",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9321691",
+      "mmsi": "461000284",
+      "name": "BARQ",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9310525",
+      "mmsi": "461000286",
+      "name": "QENDIL",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9299769",
+      "mmsi": "629009682",
+      "name": "Aquatica",
+      "flag": "Equatorial Guinea",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9282792",
+      "mmsi": "307031000",
+      "name": "AQUA LIVE",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9281152",
+      "mmsi": "352001694",
+      "name": "AQUILA II",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9190286",
+      "mmsi": "273354390",
+      "name": "AQUILON",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9350654",
+      "mmsi": "620999870",
+      "name": "RUBY CROSS",
+      "flag": "Zimbabwe",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9346873",
+      "mmsi": "511101770",
+      "name": "ELODIE I",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9315446",
+      "mmsi": "632001124",
+      "name": "Spring",
+      "flag": "Guinea",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9247792",
+      "mmsi": "650000138",
+      "name": "CECILA",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9247443",
+      "mmsi": "629009652",
+      "name": "SKIRON",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9171876",
+      "mmsi": "273417870",
+      "name": "NARVAL",
+      "flag": "Russia",
+      "vesselType": "Offshore Tug",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "1021570",
+      "mmsi": "352004565",
+      "name": "Ocean 28",
+      "flag": "Guyana",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "EU",
+        "US"
+      ]
+    },
+    {
+      "imo": "8724779",
+      "mmsi": "273331620",
+      "name": "Vanino",
+      "flag": "Russia",
+      "vesselType": "Oil/Chemical Tanker",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9321172",
+      "mmsi": "620800094",
+      "name": "SEA OWL I",
+      "flag": "Comoros",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9383869",
+      "mmsi": "629009744",
+      "name": "Saraswati",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9904687",
+      "mmsi": "0",
+      "name": "SERGEI WITTE",
+      "flag": "Russia",
+      "vesselType": "LNG Carrier",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9419151",
+      "mmsi": "629009690",
+      "name": "Wu Tai",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9413561",
+      "mmsi": "461000236",
+      "name": "ARROW",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9337327",
+      "mmsi": "511101791",
+      "name": "WEST HORIZON",
+      "flag": "Palau (Republic of)",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "UK"
+      ]
+    },
+    {
+      "imo": "9297888",
+      "mmsi": "610107094",
+      "name": "WALRUS",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9292981",
+      "mmsi": "307025000",
+      "name": "NOBLE WALKER",
+      "flag": "Aruba",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9271327",
+      "mmsi": "632001123",
+      "name": "VIEW",
+      "flag": "Guinea",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9266853",
+      "mmsi": "620800046",
+      "name": "New Power",
+      "flag": "Comoros",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9258167",
+      "mmsi": "629009578",
+      "name": "AKAR WEST",
+      "flag": "Cameroon",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9255660",
+      "mmsi": "629009448",
+      "name": "OCEAN WINGS",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9255244",
+      "mmsi": "307026000",
+      "name": "WHITE CONDOR I",
+      "flag": "Cameroon",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9248796",
+      "mmsi": "511101765",
+      "name": "IRON WAVE",
+      "flag": "Cameroon",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9247780",
+      "mmsi": "306103000",
+      "name": "TAWANNA",
+      "flag": "Curacao",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9953523",
+      "mmsi": "273268340",
+      "name": "IRIS",
+      "flag": "Russia",
+      "vesselType": "LNG Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9953535",
+      "mmsi": "273267340",
+      "name": "ZARYA",
+      "flag": "Russia",
+      "vesselType": "LNG Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9311610",
+      "mmsi": "352005255",
+      "name": "Torx",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9826902",
+      "mmsi": "461000329",
+      "name": "Galaxy",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9763849",
+      "mmsi": "563203800",
+      "name": "Pugnax",
+      "flag": "Singapore",
+      "vesselType": "Heavy Load Carrier",
+      "sanctioners": [
+        "CA",
+        "US"
+      ]
+    },
+    {
+      "imo": "9763837",
+      "mmsi": "563203700",
+      "name": "Audax",
+      "flag": "Singapore",
+      "vesselType": "Heavy Load Carrier",
+      "sanctioners": [
+        "CA",
+        "US"
+      ]
+    },
+    {
+      "imo": "9550682",
+      "mmsi": "511101762",
+      "name": "XING CHEN",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9495832",
+      "mmsi": "370805000",
+      "name": "PAXMARIS",
+      "flag": "Cameroon",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9412347",
+      "mmsi": "461000241",
+      "name": "LYNX",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9329655",
+      "mmsi": "273264690",
+      "name": "Proxima",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9312872",
+      "mmsi": "655081771",
+      "name": "XD LEO",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9291250",
+      "mmsi": "620999137",
+      "name": "CORTEX",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9231212",
+      "mmsi": "306761000",
+      "name": "XANTHOS EOS",
+      "flag": "Curacao",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9224805",
+      "mmsi": "629009692",
+      "name": "OXIS",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9222560",
+      "mmsi": "610000051",
+      "name": "CELERIX",
+      "flag": "Cameroon",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9190274",
+      "mmsi": "306218000",
+      "name": "OXIN",
+      "flag": "Botswana",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8915548",
+      "mmsi": "273357610",
+      "name": "Ryazan",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9638197",
+      "mmsi": "412303160",
+      "name": "Tong Yuan",
+      "flag": "China Peoples's Republic",
+      "vesselType": "Dredger",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9389100",
+      "mmsi": "629009630",
+      "name": "Smyrtos",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9918779",
+      "mmsi": "0",
+      "name": "ZVEZDA 046",
+      "flag": "Russia",
+      "vesselType": "LNG Carrier",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9918781",
+      "mmsi": "0",
+      "name": "ZVEZDA 047",
+      "flag": "Russia",
+      "vesselType": "LNG Carrier",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9904704",
+      "mmsi": "0",
+      "name": "ZVEZDA 045",
+      "flag": "Russia",
+      "vesselType": "LNG Carrier",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9908994",
+      "mmsi": "0",
+      "name": "ZVEZDA 131080",
+      "flag": "Russia",
+      "vesselType": "Crude Oil Tanker",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9904699",
+      "mmsi": "0",
+      "name": "ZVEZDA 044",
+      "flag": "Russia",
+      "vesselType": "LNG Carrier",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9901037",
+      "mmsi": "629009620",
+      "name": "NIKOLAY ZADORNOV",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9876359",
+      "mmsi": "273257370",
+      "name": "IVAN AIVAZOVSKY",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9645011",
+      "mmsi": "273358170",
+      "name": "Sanar 18",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "EU"
+      ]
+    },
+    {
+      "imo": "9624316",
+      "mmsi": "273355480",
+      "name": "Aura",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9385831",
+      "mmsi": "667002320",
+      "name": "Leruo",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9384992",
+      "mmsi": "667002211",
+      "name": "Mars 6",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9384069",
+      "mmsi": "629009746",
+      "name": "Lion I",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9330599",
+      "mmsi": "455380000",
+      "name": "Lumin",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9906544",
+      "mmsi": "273217380",
+      "name": "ASTROL-1",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9842205",
+      "mmsi": "0",
+      "name": "ZVEZDA 131040",
+      "flag": "Russia",
+      "vesselType": "Crew/Supply Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9777670",
+      "mmsi": "273375360",
+      "name": "Sanar-15",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9481922",
+      "mmsi": "273343190",
+      "name": "PORT OLYA-1",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9378618",
+      "mmsi": "273271320",
+      "name": "PIONER 1",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9360415",
+      "mmsi": "511101776",
+      "name": "INDUS 1",
+      "flag": "Equatorial Guinea",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9358010",
+      "mmsi": "273291160",
+      "name": "Maia-1",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "US"
+      ]
+    },
+    {
+      "imo": "9313589",
+      "mmsi": "273445480",
+      "name": "SANAR-14",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9307815",
+      "mmsi": "610107076",
+      "name": "FLORA 1",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9300348",
+      "mmsi": "273444390",
+      "name": "Sanar-10",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9297553",
+      "mmsi": "629009742",
+      "name": "MONTE 1",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9290517",
+      "mmsi": "610107137",
+      "name": "VAYU 1",
+      "flag": "Cameroon",
+      "vesselType": "Chemical/Products Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9285847",
+      "mmsi": "620999839",
+      "name": "SIRIUS 1",
+      "flag": "MALI",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9273052",
+      "mmsi": "669680000",
+      "name": "SOUFIA 1",
+      "flag": "Eswatini",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9900514",
+      "mmsi": "273218340",
+      "name": "PETROTRANS 5902",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9481881",
+      "mmsi": "273379120",
+      "name": "PORT OLYA-2",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9409259",
+      "mmsi": "511101801",
+      "name": "Spirit 2",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9243801",
+      "mmsi": "273370990",
+      "name": "ARCTICA 2",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9481910",
+      "mmsi": "273371920",
+      "name": "PORT OLYA-3",
+      "flag": "Russia",
+      "vesselType": "General Cargo / Multi Purpose",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "8889385",
+      "mmsi": "273437300",
+      "name": "OMSKIY-103",
+      "flag": "Russia",
+      "vesselType": "General Cargo / Multi Purpose",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9942392",
+      "mmsi": "273614750",
+      "name": "Nikolay Anishchenkov",
+      "flag": "Russia",
+      "vesselType": "General Cargo | Cargo classique",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "US"
+      ]
+    },
+    {
+      "imo": "9922134",
+      "mmsi": "273298020",
+      "name": "NIKOLAI LEONOV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9481934",
+      "mmsi": "273390550",
+      "name": "PORT OLYA-4",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9281683",
+      "mmsi": "620999315",
+      "name": "Siri",
+      "flag": "Comoros",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "US"
+      ]
+    },
+    {
+      "imo": "9274343",
+      "mmsi": "620999411",
+      "name": "MONTE ROSA",
+      "flag": "Russia",
+      "vesselType": "General Cargo | Cargo classique",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9940186",
+      "mmsi": "273615820",
+      "name": "ALEKSANDR DEEV",
+      "flag": "Russia",
+      "vesselType": "Passenger",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9868807",
+      "mmsi": "273451690",
+      "name": "NAVIS 6",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9235713",
+      "mmsi": "352001387",
+      "name": "AMBER 6",
+      "flag": "Timor-Leste",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9921996",
+      "mmsi": "273213790",
+      "name": "VLADIMIR LATYSHEV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9904546",
+      "mmsi": "273253270",
+      "name": "ALEKSEY KOSYGIN",
+      "flag": "Russia",
+      "vesselType": "LNG Carrier",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9897690",
+      "mmsi": "273218530",
+      "name": "POLA ANASTASIA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "CA",
+        "US"
+      ]
+    },
+    {
+      "imo": "9240885",
+      "mmsi": "511101781",
+      "name": "LONGEVITY 7",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "8330516",
+      "mmsi": "273187000",
+      "name": "SAKHALIN 8",
+      "flag": "Russia",
+      "vesselType": "Passenger",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9897705",
+      "mmsi": "273215830",
+      "name": "POLA MARIA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9898254",
+      "mmsi": "0",
+      "name": "OKEANSKY PROSPECT",
+      "flag": "Russia",
+      "vesselType": "Crude Oil Tanker",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9901025",
+      "mmsi": "629009616",
+      "name": "VLADIMIR ARSENYEV",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9888807",
+      "mmsi": "273217810",
+      "name": "POLA PELAGIA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9300350",
+      "mmsi": "273433680",
+      "name": "Sanar-9",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "8926913",
+      "mmsi": "273290480",
+      "name": "OMSKIY-119",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8728543",
+      "mmsi": "273185600",
+      "name": "SAKHALIN 9",
+      "flag": "Russia",
+      "vesselType": "Passenger",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9922110",
+      "mmsi": "273298410",
+      "name": "VICTOR ANDRYUKHIN",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9749154",
+      "mmsi": "273380170",
+      "name": "Kupava",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9585924",
+      "mmsi": "273298630",
+      "name": "Kaluga",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9524463",
+      "mmsi": "629009642",
+      "name": "SONATA",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9530917",
+      "mmsi": "629009644",
+      "name": "VESNA",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9436941",
+      "mmsi": "620999856",
+      "name": "INTEGRATOR",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9436006",
+      "mmsi": "620999939",
+      "name": "GUSTAV",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9424651",
+      "mmsi": "667001259",
+      "name": "Manta",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9413559",
+      "mmsi": "273251530",
+      "name": "Antarktika",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9411331",
+      "mmsi": "629009646",
+      "name": "KLEVER",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9408530",
+      "mmsi": "511101797",
+      "name": "Evita",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9402469",
+      "mmsi": "352003485",
+      "name": "FREDA",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9402732",
+      "mmsi": "629009592",
+      "name": "URAN",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9352195",
+      "mmsi": "629009660",
+      "name": "SANDHYA",
+      "flag": "Sierra Leone",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9353125",
+      "mmsi": "629009656",
+      "name": "ADHARA",
+      "flag": "Sierra leone",
+      "vesselType": "Chemical/Products Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9341093",
+      "mmsi": "273250930",
+      "name": "Kolomna",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9338905",
+      "mmsi": "667002026",
+      "name": "PATE",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9337901",
+      "mmsi": "511101757",
+      "name": "RIMMA",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9333412",
+      "mmsi": "629009580",
+      "name": "ENIGMA",
+      "flag": "Cameroon",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9511521",
+      "mmsi": "461000255",
+      "name": "MIRABEL",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9347061",
+      "mmsi": "273297290",
+      "name": "SABETTA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9288734",
+      "mmsi": "667001321",
+      "name": "ARABESCA",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9234501",
+      "mmsi": "610000050",
+      "name": "STABILIS I",
+      "flag": "Cameroon",
+      "vesselType": "Chemical/Products Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9210256",
+      "mmsi": "273292680",
+      "name": "VIKTOR ZABELIN",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9163764",
+      "mmsi": "273210470",
+      "name": "Arno Babajanyan",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "8504923",
+      "mmsi": "273457600",
+      "name": "PROFESSOR RYABINKIN",
+      "flag": "Russia",
+      "vesselType": "Research Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9885879",
+      "mmsi": "273259920",
+      "name": "VALENTIN PIKUL",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9538115",
+      "mmsi": "273350140",
+      "name": "VYACHESLAV TIKHONOV",
+      "flag": "Russia",
+      "vesselType": "Research Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9368223",
+      "mmsi": "461000320",
+      "name": "Achilles",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9330604",
+      "mmsi": "667002359",
+      "name": "NACHOS",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9329667",
+      "mmsi": "629009674",
+      "name": "Pacific",
+      "flag": "Cameroon",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9327372",
+      "mmsi": "667002210",
+      "name": "OCEAN EMBRACE",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9296391",
+      "mmsi": "620800019",
+      "name": "BOSTON BEACON",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9288930",
+      "mmsi": "273616650",
+      "name": "PACIFICOS",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9286657",
+      "mmsi": "620999979",
+      "name": "LEGACY CREST",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9284726",
+      "mmsi": "613003743",
+      "name": "Bonifacy",
+      "flag": "Cameroon",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9259745",
+      "mmsi": "306723000",
+      "name": "Eternal Peace",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9249087",
+      "mmsi": "632001118",
+      "name": "DRACO",
+      "flag": "Guinea",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9249130",
+      "mmsi": "610000053",
+      "name": "Peace",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9246140",
+      "mmsi": "273373920",
+      "name": "SASCO AVACHA",
+      "flag": "Russia",
+      "vesselType": "Container Ship",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8834691",
+      "mmsi": "273456410",
+      "name": "PROFESSOR LOGACHEV",
+      "flag": "Russia",
+      "vesselType": "Research Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "1011551",
+      "mmsi": "311114605",
+      "name": "GRACEFUL",
+      "flag": "Russia",
+      "vesselType": "Yacht",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9842176",
+      "mmsi": "273211040",
+      "name": "Vladimir Monomakh",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9842188",
+      "mmsi": "273295230",
+      "name": "Vladimir Vinogradov",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9842190",
+      "mmsi": "273616040",
+      "name": "Akademik Gubkin",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9784893",
+      "mmsi": "273382620",
+      "name": "LADY RANIA",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9742120",
+      "mmsi": "273396990",
+      "name": "GENNADIY NEVELSKOY",
+      "flag": "Russia",
+      "vesselType": "Supply Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9683740",
+      "mmsi": "273340060",
+      "name": "Lady Leila",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9678238",
+      "mmsi": "273393630",
+      "name": "SVYATOY KNYAZ VLADIMIR",
+      "flag": "Russia",
+      "vesselType": "Passenger",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9683738",
+      "mmsi": "273342180",
+      "name": "Lady Sevda",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9610781",
+      "mmsi": "461000254",
+      "name": "NOMAD",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9413573",
+      "mmsi": "461000247",
+      "name": "ARCADIA",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9397547",
+      "mmsi": "273268690",
+      "name": "Ariadne",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9610810",
+      "mmsi": "273258810",
+      "name": "Viktor Bakaev",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "1011159",
+      "mmsi": "319025900",
+      "name": "ANATTA",
+      "flag": "Cayman Islands",
+      "vesselType": "Yacht",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9224465",
+      "mmsi": "620999796",
+      "name": "OLAF 1",
+      "flag": "Comoros",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "8422682",
+      "mmsi": "273375800",
+      "name": "VAFA-1",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8422670",
+      "mmsi": "273370900",
+      "name": "VAFA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9311531",
+      "mmsi": "629009602",
+      "name": "LINDOR",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9843560",
+      "mmsi": "461000326",
+      "name": "VOYAGER",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9384095",
+      "mmsi": "511100983",
+      "name": "Ragnar",
+      "flag": "Sierra leone",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9337389",
+      "mmsi": "620999422",
+      "name": "Agni",
+      "flag": "Comoros",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9329760",
+      "mmsi": "518998865",
+      "name": "Eagle S",
+      "flag": "Cook Islands",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9318553",
+      "mmsi": "620800026",
+      "name": "SAGA",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9314167",
+      "mmsi": "655910000",
+      "name": "AGNI",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9310707",
+      "mmsi": "577078000",
+      "name": "AGATE",
+      "flag": "Panama",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9296822",
+      "mmsi": "352001616",
+      "name": "SAGITTA",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9287699",
+      "mmsi": "273452980",
+      "name": "FESCO MAGADAN",
+      "flag": "Russia",
+      "vesselType": "Container Ship",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9243148",
+      "mmsi": "273262840",
+      "name": "ARCTIC METAGAZ",
+      "flag": "Russia",
+      "vesselType": "LNG Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "8606628",
+      "mmsi": "273428520",
+      "name": "KOMPOZITOR ELZA IBRAGIMOVA",
+      "flag": "Russia",
+      "vesselType": "Roll-on Roll-off",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9368235",
+      "mmsi": "620800043",
+      "name": "NEVAH",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9322267",
+      "mmsi": "632001100",
+      "name": "Sahara",
+      "flag": "Guinea",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9266750",
+      "mmsi": "314901000",
+      "name": "SEAHORSE",
+      "flag": "Barbados",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9261619",
+      "mmsi": "613511201",
+      "name": "Hannah",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "8603406",
+      "mmsi": "273110100",
+      "name": "IOHANN MAHMASTAL",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9837547",
+      "mmsi": "273212310",
+      "name": "MIKHAIL LAZAREV",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9437983",
+      "mmsi": "667001407",
+      "name": "Cai Yun",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9419448",
+      "mmsi": "750062000",
+      "name": "Heng Tai",
+      "flag": "Guyana",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9388780",
+      "mmsi": "668116211",
+      "name": "Bai Lu",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9360128",
+      "mmsi": "461000330",
+      "name": "ZALIV BAIKAL",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9348479",
+      "mmsi": "629009706",
+      "name": "LUCKY FAIRY",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9333670",
+      "mmsi": "273328440",
+      "name": "Mikhail Ulyanov",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9319870",
+      "mmsi": "629009740",
+      "name": "MAINI",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9289776",
+      "mmsi": "610000040",
+      "name": "MAISAN",
+      "flag": "Benin",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9285835",
+      "mmsi": "620999927",
+      "name": "Kousai",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9237228",
+      "mmsi": "620799853",
+      "name": "SHANGHAI",
+      "flag": "Aruba",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9236004",
+      "mmsi": "629009598",
+      "name": "KAIROS",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9232888",
+      "mmsi": "667002025",
+      "name": "AILANA",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9849423",
+      "mmsi": "273416760",
+      "name": "POLA MAKARIA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9797577",
+      "mmsi": "273418880",
+      "name": "BAKHTEMIR",
+      "flag": "Russia",
+      "vesselType": "Salvage Ship",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9753741",
+      "mmsi": "273412440",
+      "name": "YEVGENY PRIMAKOV",
+      "flag": "Russia",
+      "vesselType": "Supply Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9753727",
+      "mmsi": "273392530",
+      "name": "STEPAN MAKAROV",
+      "flag": "Russia",
+      "vesselType": "Supply Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9650016",
+      "mmsi": "273399390",
+      "name": "Rn Sakhalin",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9621558",
+      "mmsi": "273359180",
+      "name": "KARAKUZ",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "UK"
+      ]
+    },
+    {
+      "imo": "9513139",
+      "mmsi": "629009626",
+      "name": "ZODIAK",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9410870",
+      "mmsi": "632001096",
+      "name": "AKHILL",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9410894",
+      "mmsi": "632001089",
+      "name": "AKSEL",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9381732",
+      "mmsi": "632001084",
+      "name": "AKCENT",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9341067",
+      "mmsi": "610000033",
+      "name": "DF PEAK",
+      "flag": "Benin",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9314105",
+      "mmsi": "629009658",
+      "name": "Makalu",
+      "flag": "Equatorial Guinea",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9307724",
+      "mmsi": "273318120",
+      "name": "SCF SAKHALIN",
+      "flag": "Russia",
+      "vesselType": "Supply Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9234642",
+      "mmsi": "305262000",
+      "name": "Koala",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU"
+      ]
+    },
+    {
+      "imo": "9207027",
+      "mmsi": "667002362",
+      "name": "Vernal",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9889198",
+      "mmsi": "273216620",
+      "name": "ALEKSANDR SOKOLOV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9851127",
+      "mmsi": "273217290",
+      "name": "POLA GALI",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9653068",
+      "mmsi": "273333470",
+      "name": "RN AMUR",
+      "flag": "Russia",
+      "vesselType": "Tug",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9413547",
+      "mmsi": "461000238",
+      "name": "AMULET",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9396854",
+      "mmsi": "273299220",
+      "name": "LAMANTIN",
+      "flag": "Russia",
+      "vesselType": "Offshore Support Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9341079",
+      "mmsi": "461000253",
+      "name": "CAMEL",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9308132",
+      "mmsi": "630001117",
+      "name": "Tempest Dream",
+      "flag": "Guinea-Bissau",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9292204",
+      "mmsi": "461000219",
+      "name": "AMAZON",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9257993",
+      "mmsi": "629009452",
+      "name": "Amell",
+      "flag": "San Marino",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9253894",
+      "mmsi": "610000039",
+      "name": "Destamar",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9253909",
+      "mmsi": "511100897",
+      "name": "JAMES II",
+      "flag": "Palau (Republic of)",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "UK"
+      ]
+    },
+    {
+      "imo": "9205067",
+      "mmsi": "613429702",
+      "name": "VIKRAM",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9175078",
+      "mmsi": "629009050",
+      "name": "Zambra",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9014872",
+      "mmsi": "273386260",
+      "name": "TAMBEY",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9337133",
+      "mmsi": "574005380",
+      "name": "IVY",
+      "flag": "Vietnam",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9284582",
+      "mmsi": "574005540",
+      "name": "Panda",
+      "flag": "Guyana",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9284594",
+      "mmsi": "306724000",
+      "name": "OCEAN RIVER",
+      "flag": "Sint Maarten",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9273387",
+      "mmsi": "574005470",
+      "name": "ASTRA",
+      "flag": "Vietnam",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9223540",
+      "mmsi": "632001122",
+      "name": "RAINE",
+      "flag": "Guinea",
+      "vesselType": "LPG Tanker",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9187514",
+      "mmsi": "273392760",
+      "name": "AKADEMIK PRIMAKOV",
+      "flag": "Russia",
+      "vesselType": "Research Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8826230",
+      "mmsi": "273434310",
+      "name": "GELENDZHIK",
+      "flag": "Russia",
+      "vesselType": "Research Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8724482",
+      "mmsi": "273422600",
+      "name": "YUZHMORGEOLOGIYA",
+      "flag": "Russia",
+      "vesselType": "Research Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8406573",
+      "mmsi": "273459600",
+      "name": "GEOLOG KULIKOV",
+      "flag": "Russia",
+      "vesselType": "Drilling Ship",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8408985",
+      "mmsi": "273450600",
+      "name": "AKADEMIK LAZAREV",
+      "flag": "Russia",
+      "vesselType": "Research Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8409032",
+      "mmsi": "273454600",
+      "name": "ORDOVIK",
+      "flag": "Russia",
+      "vesselType": "Research Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9624225",
+      "mmsi": "273459710",
+      "name": "OSTAP SHEREMETA",
+      "flag": "Russia",
+      "vesselType": "Service Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9372559",
+      "mmsi": "273335010",
+      "name": "Kapitan Gotsky",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9301392",
+      "mmsi": "273264590",
+      "name": "KAPITAN KOSTICHEV",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9279422",
+      "mmsi": "273396150",
+      "name": "KAPITAN KOKOVIN",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9279434",
+      "mmsi": "273395150",
+      "name": "KAPITAN SAKHAROV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "CA",
+        "US"
+      ]
+    },
+    {
+      "imo": "9280885",
+      "mmsi": "352001692",
+      "name": "Apus",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9247883",
+      "mmsi": "667002270",
+      "name": "SAPNA",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "8928143",
+      "mmsi": "273911200",
+      "name": "LAPOMINKA",
+      "flag": "Russia",
+      "vesselType": "Hopper Barge",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8724080",
+      "mmsi": "273451820",
+      "name": "KAPITAN BEKLEMISHEV",
+      "flag": "Russia",
+      "vesselType": "Tug",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8700010",
+      "mmsi": "273355400",
+      "name": "SAPFIR",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8618073",
+      "mmsi": "273440100",
+      "name": "KAPITAN RYNTSYN",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8318740",
+      "mmsi": "273348130",
+      "name": "CAPTAIN YAKUBOVICH",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "1010648",
+      "mmsi": "533132399",
+      "name": "SEA RHAPSODY",
+      "flag": "Malaysia",
+      "vesselType": "Yacht",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9353096",
+      "mmsi": "620999856",
+      "name": "GURU",
+      "flag": "Cameroon",
+      "vesselType": "Chemical/Products Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9319882",
+      "mmsi": "630001163",
+      "name": "GEFEST",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9309576",
+      "mmsi": "649113000",
+      "name": "SILVER",
+      "flag": "MALI",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9299745",
+      "mmsi": "632001095",
+      "name": "ALGORITM",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9297371",
+      "mmsi": "610107131",
+      "name": "VULKAN",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9314820",
+      "mmsi": "352003314",
+      "name": "OSAR",
+      "flag": "Sierra leone",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9397676",
+      "mmsi": "423046100",
+      "name": "Nasimi",
+      "flag": "Azerbaijan",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "CA"
+      ]
+    },
+    {
+      "imo": "9308950",
+      "mmsi": "629009748",
+      "name": "Seasons I",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9778313",
+      "mmsi": "273437230",
+      "name": "Marshal Vasilevskiy",
+      "flag": "Russia",
+      "vesselType": "FSO Gas Unit",
+      "sanctioners": [
+        "CA",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9691785",
+      "mmsi": "273395260",
+      "name": "POLA SEVASTIANA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9621601",
+      "mmsi": "273256410",
+      "name": "Vasily Lanovoy",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9610793",
+      "mmsi": "273259730",
+      "name": "Georgy Maslov",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9537109",
+      "mmsi": "273353580",
+      "name": "Gazpromneft Zuid East",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9497531",
+      "mmsi": "273357360",
+      "name": "SPASATEL KAREV",
+      "flag": "Russia",
+      "vesselType": "Salvage Ship",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9511387",
+      "mmsi": "461000237",
+      "name": "OASIS",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9422653",
+      "mmsi": "273334570",
+      "name": "Gazpromneft Nordeast",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9409467",
+      "mmsi": "632001125",
+      "name": "PRAVASI",
+      "flag": "Guinea",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9260275",
+      "mmsi": "667002357",
+      "name": "Katran",
+      "flag": "Sierra leone",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9851103",
+      "mmsi": "273435200",
+      "name": "POLA ANATOLIA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9759915",
+      "mmsi": "273392990",
+      "name": "Shturman Skuratov",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9655470",
+      "mmsi": "273259970",
+      "name": "SATURN I",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9610808",
+      "mmsi": "273253130",
+      "name": "Anatoly Kolodkin",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9589750",
+      "mmsi": "610000037",
+      "name": "STRATEG",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9572020",
+      "mmsi": "273392360",
+      "name": "BALTIYSKIY ISSLEDOVATEL",
+      "flag": "Russia",
+      "vesselType": "Supply Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9308170",
+      "mmsi": "629009600",
+      "name": "ESTELLA",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9389679",
+      "mmsi": "577399000",
+      "name": "BULLAR",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9333682",
+      "mmsi": "273345750",
+      "name": "Kirill Lavrov",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9288899",
+      "mmsi": "667002027",
+      "name": "NORELLA",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9256860",
+      "mmsi": "750466000",
+      "name": "GALLILEO",
+      "flag": "Russia",
+      "vesselType": "Crude Oil Tanker",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9208069",
+      "mmsi": "650000145",
+      "name": "Stellar Beverly",
+      "flag": "Mozambique",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9035541",
+      "mmsi": "273351980",
+      "name": "MILLEROVO",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9743033",
+      "mmsi": "273413440",
+      "name": "SPARTA IV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9347059",
+      "mmsi": "273292120",
+      "name": "UTRENNIY",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9338230",
+      "mmsi": "273319940",
+      "name": "HERMES",
+      "flag": "Russia",
+      "vesselType": "Offshore Tug/Supply Ship",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9331141",
+      "mmsi": "667002061",
+      "name": "RIZVEL",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9323376",
+      "mmsi": "620800018",
+      "name": "CHARIOT TIDE",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9804057",
+      "mmsi": "273418480",
+      "name": "ELM",
+      "flag": "Russia",
+      "vesselType": "Tug",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9385142",
+      "mmsi": "273276930",
+      "name": "Almond",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9109081",
+      "mmsi": "273342810",
+      "name": "KHOLMOGORY",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9832547",
+      "mmsi": "629009696",
+      "name": "STRIZH",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9247431",
+      "mmsi": "655919000",
+      "name": "REGAL I",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9433286",
+      "mmsi": "273295260",
+      "name": "MYS FLORA",
+      "flag": "Russia",
+      "vesselType": "Bulk Carrier",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9392822",
+      "mmsi": "570297000",
+      "name": "LOTUS",
+      "flag": "Syria",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9384435",
+      "mmsi": "273272930",
+      "name": "BELOMOR",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9331153",
+      "mmsi": "668116154",
+      "name": "MAYLO",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9319674",
+      "mmsi": "629009760",
+      "name": "Night Glory",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9292589",
+      "mmsi": "577095000",
+      "name": "LOGANO",
+      "flag": "Panama",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "8315499",
+      "mmsi": "0",
+      "name": "COMETA",
+      "flag": "Cameroon",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9408205",
+      "mmsi": "613741800",
+      "name": "NELSA",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9240550",
+      "mmsi": "273293820",
+      "name": "SMP ARKHANGELSK",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9299692",
+      "mmsi": "461000233",
+      "name": "CELT",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9251456",
+      "mmsi": "610000052",
+      "name": "BOLTARIS",
+      "flag": "Cameroon",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9220639",
+      "mmsi": "273297850",
+      "name": "BALTIC LEADER",
+      "flag": "Russia",
+      "vesselType": "Roll-on Roll-off",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8318130",
+      "mmsi": "273317640",
+      "name": "BALTIYSK",
+      "flag": "Russia",
+      "vesselType": "Roll-on Roll-off",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "7612448",
+      "mmsi": "273334100",
+      "name": "BALTIYSKIY-111",
+      "flag": "Russia",
+      "vesselType": "General Cargo / Multi Purpose",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9888182",
+      "mmsi": "273296810",
+      "name": "DMITRY MENDELEEV",
+      "flag": "Russia",
+      "vesselType": "Bunkering Tanker",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9866392",
+      "mmsi": "273611590",
+      "name": "Vostochny Prospect",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9866380",
+      "mmsi": "273618730",
+      "name": "Okeansky Prospect",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9524451",
+      "mmsi": "629009650",
+      "name": "BELUGA",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9383950",
+      "mmsi": "629009678",
+      "name": "SALUT",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9334557",
+      "mmsi": "620999956",
+      "name": "Blue Talu",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9288746",
+      "mmsi": "620999965",
+      "name": "PLUTON",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9273442",
+      "mmsi": "629009610",
+      "name": "Blue Ember",
+      "flag": "Sao Tome & Principe",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9236353",
+      "mmsi": "550071140",
+      "name": "Blue",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9235725",
+      "mmsi": "629009500",
+      "name": "Fuga Bluemarine",
+      "flag": "Gambia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9434890",
+      "mmsi": "667002021",
+      "name": "VOKKI",
+      "flag": "Barbados",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9421960",
+      "mmsi": "273255610",
+      "name": "PRIMORYE",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9404948",
+      "mmsi": "620999960",
+      "name": "THRON",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9299721",
+      "mmsi": "668116311",
+      "name": "Leona",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9378620",
+      "mmsi": "620800044",
+      "name": "DALVA",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9336426",
+      "mmsi": "511101771",
+      "name": "SELVA",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9248849",
+      "mmsi": "667002338",
+      "name": "Silvera",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9864837",
+      "mmsi": "273260840",
+      "name": "ARCTIC MULAN",
+      "flag": "Russia",
+      "vesselType": "LNG Tanker | M\u00e9thanier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9849887",
+      "mmsi": "273279530",
+      "name": "La Perouse",
+      "flag": "Russia",
+      "vesselType": "LNG Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9832559",
+      "mmsi": "629009648",
+      "name": "PROMETEY",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9752096",
+      "mmsi": "273398780",
+      "name": "Shturman Malygin",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9621560",
+      "mmsi": "273358180",
+      "name": "Bavly",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9372547",
+      "mmsi": "273345020",
+      "name": "Vasily Dinkov",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9345623",
+      "mmsi": "667002017",
+      "name": "ELYTE",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9314088",
+      "mmsi": "352001732",
+      "name": "Lyra",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9294331",
+      "mmsi": "650000120",
+      "name": "LILY",
+      "flag": "Mozambique",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "1006960",
+      "mmsi": "319766000",
+      "name": "OLYMPIA",
+      "flag": "Cayman Islands",
+      "vesselType": "Yacht",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9247376",
+      "mmsi": "667002425",
+      "name": "Mariel",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9196620",
+      "mmsi": "273387920",
+      "name": "UMBA",
+      "flag": "Russia",
+      "vesselType": "Floating Storage Tanker",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8821761",
+      "mmsi": "273350170",
+      "name": "Nimbus Spb",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "8807416",
+      "mmsi": "273355410",
+      "name": "AMBAL",
+      "flag": "Russia",
+      "vesselType": "Roll-on Roll-off",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9257137",
+      "mmsi": "518999094",
+      "name": "Min Hang",
+      "flag": "Cook Islands",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9594339",
+      "mmsi": "378314000",
+      "name": "LENA",
+      "flag": "Virgin Islands (U.K)",
+      "vesselType": "Yacht",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9198290",
+      "mmsi": "570101472",
+      "name": "MD MIRANDA",
+      "flag": "Tonga",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9590137",
+      "mmsi": "273355640",
+      "name": "Megion",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9312884",
+      "mmsi": "273250830",
+      "name": "Kemerovo",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9288710",
+      "mmsi": "667001372",
+      "name": "MELITE",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9281891",
+      "mmsi": "352002495",
+      "name": "Merope",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9187227",
+      "mmsi": "629009676",
+      "name": "Meru",
+      "flag": "Equatorial Guinea",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "8904458",
+      "mmsi": "273116000",
+      "name": "MEKHANIK KRASKOVSKIY",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8904410",
+      "mmsi": "273113600",
+      "name": "MEKHANIK KOTTSOV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8904422",
+      "mmsi": "273114000",
+      "name": "MEKHANIK PUSTOSHNYY",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9752101",
+      "mmsi": "273391790",
+      "name": "Shturman Ovtsyn",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9752084",
+      "mmsi": "273397870",
+      "name": "Shturman Albanov",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9737187",
+      "mmsi": "273261260",
+      "name": "Christophe de Margerie",
+      "flag": "Russia",
+      "vesselType": "LNG Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9349291",
+      "mmsi": "273298160",
+      "name": "ANASTASIIA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9349289",
+      "mmsi": "273293160",
+      "name": "LADY D",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9220641",
+      "mmsi": "273292160",
+      "name": "LADY MARIIA",
+      "flag": "Russia",
+      "vesselType": "Roll-on Roll-off",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9161003",
+      "mmsi": "273212120",
+      "name": "Lady R",
+      "flag": "Russia",
+      "vesselType": "Ro-Ro Cargo",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9103817",
+      "mmsi": "273191000",
+      "name": "BORIS KUSTODIEV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9083330",
+      "mmsi": "273150400",
+      "name": "GASRET ALIEV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9083196",
+      "mmsi": "273151300",
+      "name": "GENRIKH GASANOV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9082142",
+      "mmsi": "273155400",
+      "name": "ASKAR-SARYDZHA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8861058",
+      "mmsi": "273157300",
+      "name": "RASUL GAMZATOV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8866591",
+      "mmsi": "273159700",
+      "name": "VALENTIN EMIROV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "CA",
+        "US"
+      ]
+    },
+    {
+      "imo": "8700046",
+      "mmsi": "273356400",
+      "name": "OLGA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8700060",
+      "mmsi": "273357400",
+      "name": "SONA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8606616",
+      "mmsi": "273452650",
+      "name": "KOMPOZITOR RAKHMANINOV",
+      "flag": "Russia",
+      "vesselType": "Roll-on Roll-off",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9683726",
+      "mmsi": "273332580",
+      "name": "Dmitry Pokrovsky",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9577082",
+      "mmsi": "629009640",
+      "name": "Premier",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9171620",
+      "mmsi": "273397740",
+      "name": "UMKA",
+      "flag": "Russia",
+      "vesselType": "Offshore Tug",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9056571",
+      "mmsi": "273378220",
+      "name": "Immanuel",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9817779",
+      "mmsi": "273396740",
+      "name": "TIS",
+      "flag": "Russia",
+      "vesselType": "Tug",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9759927",
+      "mmsi": "273385570",
+      "name": "Shturman Shcherbinin",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9759939",
+      "mmsi": "273391160",
+      "name": "Shturman Koshelev",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9418509",
+      "mmsi": "273371330",
+      "name": "Omsk",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9379052",
+      "mmsi": "629009596",
+      "name": "NOVA",
+      "flag": "Cameroon",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9286463",
+      "mmsi": "273355340",
+      "name": "Olanga",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9167930",
+      "mmsi": "273430430",
+      "name": "Murmansk",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9308857",
+      "mmsi": "667001997",
+      "name": "Rymo",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9372561",
+      "mmsi": "273330620",
+      "name": "Timofey Guzhenko",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9323338",
+      "mmsi": "632001115",
+      "name": "ANEMON",
+      "flag": "Guinea",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9277412",
+      "mmsi": "273210520",
+      "name": "FESCO MONERON",
+      "flag": "Russia",
+      "vesselType": "Container Ship",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9274616",
+      "mmsi": "632001101",
+      "name": "DEIMOS",
+      "flag": "Guinea",
+      "vesselType": "Crude Oil Tanker",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9271951",
+      "mmsi": "629009582",
+      "name": "MOCHA",
+      "flag": "Cameroon",
+      "vesselType": "Chemical/Products Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9216482",
+      "mmsi": "273343810",
+      "name": "MIKHAIL LOMONOSOV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8305781",
+      "mmsi": "273915100",
+      "name": "BELOMORSKIY",
+      "flag": "Russia",
+      "vesselType": "Dredger",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9398046",
+      "mmsi": "273298320",
+      "name": "SMP NOVODVINSK",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9376440",
+      "mmsi": "273291430",
+      "name": "SMP SEVERODVINSK",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9309588",
+      "mmsi": "629009668",
+      "name": "Symphony",
+      "flag": "Barbados | Comoros",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9270529",
+      "mmsi": "273259230",
+      "name": "Krymsk",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "8951413",
+      "mmsi": "273216510",
+      "name": "ZAKAMSK",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9113276",
+      "mmsi": "273454260",
+      "name": "MT Konstantinovsk",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9310018",
+      "mmsi": "273312530",
+      "name": "ANTEY",
+      "flag": "Russia",
+      "vesselType": "Anchor Handling Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9682423",
+      "mmsi": "273370640",
+      "name": "MURMAN",
+      "flag": "Russia",
+      "vesselType": "Salvage Ship",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9179385",
+      "mmsi": "273356170",
+      "name": "SIMUSHIR",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8846814",
+      "mmsi": "273353660",
+      "name": "Musa Jalil",
+      "flag": "Russia",
+      "vesselType": "General Cargo / Multi Purpose",
+      "sanctioners": [
+        "CA",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9333436",
+      "mmsi": "461000248",
+      "name": "SOLARIS",
+      "flag": "Oman",
+      "vesselType": "Oil Products Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9299666",
+      "mmsi": "620999986",
+      "name": "DASHAN",
+      "flag": "Gabon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9248801",
+      "mmsi": "610107062",
+      "name": "Ascendant",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9368340",
+      "mmsi": "273218890",
+      "name": "MYS DEZHNEVA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "CA",
+        "US"
+      ]
+    },
+    {
+      "imo": "9366110",
+      "mmsi": "273216130",
+      "name": "MYS ZHELANIYA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9332834",
+      "mmsi": "629009684",
+      "name": "MYSTERY",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9243825",
+      "mmsi": "273256600",
+      "name": "MYS SHMIDTA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9190107",
+      "mmsi": "273292470",
+      "name": "MYS MANORSKIY",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9105140",
+      "mmsi": "273432830",
+      "name": "Taimyr",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "8821797",
+      "mmsi": "273397130",
+      "name": "TAIMYR",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9394935",
+      "mmsi": "667002072",
+      "name": "OSANA",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9335680",
+      "mmsi": "273314650",
+      "name": "SCF ENDURANCE",
+      "flag": "Russia",
+      "vesselType": "Supply Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9288851",
+      "mmsi": "620999912",
+      "name": "GRINCH",
+      "flag": "Comoros",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "8808525",
+      "mmsi": "511101785",
+      "name": "Bronco",
+      "flag": "Liberia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9673202",
+      "mmsi": "629009624",
+      "name": "LEGENDA",
+      "flag": "Russia",
+      "vesselType": "Bulk Carrier",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9430210",
+      "mmsi": "613511200",
+      "name": "Gogland",
+      "flag": "Cameroon",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9412335",
+      "mmsi": "461000240",
+      "name": "BOND",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9388742",
+      "mmsi": "620800039",
+      "name": "FONDEYA",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9339337",
+      "mmsi": "461000249",
+      "name": "LAVENDER",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9335678",
+      "mmsi": "273312540",
+      "name": "SCF ENDEAVOUR",
+      "flag": "Russia",
+      "vesselType": "Supply Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9321976",
+      "mmsi": "352001510",
+      "name": "SYNDRA",
+      "flag": "Timor-Leste",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9577094",
+      "mmsi": "461000264",
+      "name": "GARNET",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9384459",
+      "mmsi": "273273930",
+      "name": "ONEGA",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9386536",
+      "mmsi": "629009048",
+      "name": "Spring Fortune",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9374868",
+      "mmsi": "574005510",
+      "name": "NERO",
+      "flag": "Vietnam",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9613549",
+      "mmsi": "273358680",
+      "name": "VITUS BERING",
+      "flag": "Russia",
+      "vesselType": "Supply Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9451642",
+      "mmsi": "273217060",
+      "name": "VENGERY",
+      "flag": "Russia",
+      "vesselType": "Offshore Support",
+      "sanctioners": [
+        "UK"
+      ]
+    },
+    {
+      "imo": "9436018",
+      "mmsi": "650000118",
+      "name": "DG HONG KONG",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9420617",
+      "mmsi": "423530100",
+      "name": "ZANGAZUR",
+      "flag": "Azerbaijan",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9322839",
+      "mmsi": "632001087",
+      "name": "AVANGARD",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9304629",
+      "mmsi": "668116333",
+      "name": "Cheng He",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9297357",
+      "mmsi": "273272530",
+      "name": "NOVATOR",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9482926",
+      "mmsi": "273215770",
+      "name": "SV. NIKOLAY",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9418494",
+      "mmsi": "461000231",
+      "name": "Zaliv Aniva",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9388792",
+      "mmsi": "644000341",
+      "name": "Unity",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9384306",
+      "mmsi": "273271630",
+      "name": "Universal",
+      "flag": "Russia",
+      "vesselType": "Chemical/Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers/ transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9624213",
+      "mmsi": "273413540",
+      "name": "IVAN SIDORENKO",
+      "flag": "Russia",
+      "vesselType": "Service Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9301419",
+      "mmsi": "629009612",
+      "name": "YURI SENKEVICH",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9183831",
+      "mmsi": "273292090",
+      "name": "Np Dudinka",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9617923",
+      "mmsi": "273380810",
+      "name": "MARIA E",
+      "flag": "Togo",
+      "vesselType": "Roll-on Roll-off",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9160994",
+      "mmsi": "273394890",
+      "name": "SPARTA II",
+      "flag": "Russia",
+      "vesselType": "Roll-on Roll-off",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9265756",
+      "mmsi": "629009608",
+      "name": "SUNNY",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9412995",
+      "mmsi": "632001090",
+      "name": "Kruger",
+      "flag": "Guinea",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9381744",
+      "mmsi": "632001112",
+      "name": "ARKHITEKTOR",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9327413",
+      "mmsi": "632001110",
+      "name": "Karol",
+      "flag": "Guinea",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9322827",
+      "mmsi": "632001107",
+      "name": "ANTARES",
+      "flag": "Eswatini",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9315654",
+      "mmsi": "655144181",
+      "name": "Sea Honor",
+      "flag": "Guyana",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9255270",
+      "mmsi": "273290390",
+      "name": "Np Dikson",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9422988",
+      "mmsi": "314679000",
+      "name": "VOLANS",
+      "flag": "Barbados",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9242223",
+      "mmsi": "306124000",
+      "name": "RENS",
+      "flag": "Tonga",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9203710",
+      "mmsi": "273450880",
+      "name": "SV KONSTANTIN",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "CA",
+        "US"
+      ]
+    },
+    {
+      "imo": "8922486",
+      "mmsi": "273914100",
+      "name": "DVINSKIY ZALIV",
+      "flag": "Russia",
+      "vesselType": "Dredger",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8700096",
+      "mmsi": "273336730",
+      "name": "Partizansk",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "8711289",
+      "mmsi": "273148510",
+      "name": "RZK CONSTANTA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8227238",
+      "mmsi": "273457410",
+      "name": "AKADEMIK ALEKSANDR KARPINSKIY",
+      "flag": "Russia",
+      "vesselType": "Research Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9384447",
+      "mmsi": "273279830",
+      "name": "BARENTS",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9380673",
+      "mmsi": "667001255",
+      "name": "Centurion",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9378632",
+      "mmsi": "620999844",
+      "name": "SINTEZ",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9335692",
+      "mmsi": "273312060",
+      "name": "SCF ENTERPRISE",
+      "flag": "Russia",
+      "vesselType": "Supply Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9308065",
+      "mmsi": "211146780",
+      "name": "Eventin",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9299161",
+      "mmsi": "273454890",
+      "name": "Kord Atlantic",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9288863",
+      "mmsi": "629009566",
+      "name": "VALENTE",
+      "flag": "The Gambia",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9299903",
+      "mmsi": "657990050",
+      "name": "Deyna",
+      "flag": "Tonga",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9256078",
+      "mmsi": "273254130",
+      "name": "Liteyny Prospect",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "8730077",
+      "mmsi": "273449240",
+      "name": "DOBRYNYA",
+      "flag": "Russia",
+      "vesselType": "Tug",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9259599",
+      "mmsi": "632001102",
+      "name": "AKKORD",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9304356",
+      "mmsi": "613569715",
+      "name": "Yodan",
+      "flag": "Barbados",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9238052",
+      "mmsi": "570299000",
+      "name": "Freya",
+      "flag": "Tonga",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9322968",
+      "mmsi": "620800024",
+      "name": "Hyperion",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "8857667",
+      "mmsi": "273186400",
+      "name": "SAKHALIN 10",
+      "flag": "Russia",
+      "vesselType": "Passenger",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9435375",
+      "mmsi": "273332530",
+      "name": "Irtysh River",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9301380",
+      "mmsi": "273264760",
+      "name": "PAVEL CHERNYSH",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "8909329",
+      "mmsi": "273456920",
+      "name": "ALEKSEY MARYSHEV",
+      "flag": "Russia",
+      "vesselType": "Research Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8714695",
+      "mmsi": "273359930",
+      "name": "ARKADIY CHERNYSHEV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9250531",
+      "mmsi": "620999800",
+      "name": "ROZMARINE",
+      "flag": "Guyana",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9263198",
+      "mmsi": "577677000",
+      "name": "FEI YUN HE",
+      "flag": "Cameroon",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9346732",
+      "mmsi": "570294000",
+      "name": "TK SCORPIO",
+      "flag": "Tonga",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9236640",
+      "mmsi": "632001130",
+      "name": "AZALEA",
+      "flag": "Guinea",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9360130",
+      "mmsi": "461000260",
+      "name": "ZALIV VOSTOK",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9258002",
+      "mmsi": "273259910",
+      "name": "Kazan",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9341081",
+      "mmsi": "461000252",
+      "name": "CARMA",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9311622",
+      "mmsi": "461000242",
+      "name": "DINASTY",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9276028",
+      "mmsi": "629009654",
+      "name": "Pegasus",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9305568",
+      "mmsi": "629009728",
+      "name": "Breeze",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9263643",
+      "mmsi": "518998343",
+      "name": "Frunze",
+      "flag": "Cook Islands",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9233741",
+      "mmsi": "629009762",
+      "name": "MITZEL",
+      "flag": "Comoros",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9168946",
+      "mmsi": "613833000",
+      "name": "Zevs",
+      "flag": "Cameroon",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9118355",
+      "mmsi": "273347430",
+      "name": "ZEYA",
+      "flag": "Russia",
+      "vesselType": "Container Ship",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "7741108",
+      "mmsi": "273434010",
+      "name": "MANGAZEYA",
+      "flag": "Russia",
+      "vesselType": "Fish Carrier",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9274800",
+      "mmsi": "629009622",
+      "name": "Astral",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9268112",
+      "mmsi": "629009588",
+      "name": "ALBA",
+      "flag": "Madagascar",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "8814354",
+      "mmsi": "273413510",
+      "name": "PIZHMA",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8730455",
+      "mmsi": "273912200",
+      "name": "CHIZHOVKA",
+      "flag": "Russia",
+      "vesselType": "Hopper Barge",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8502080",
+      "mmsi": "273358380",
+      "name": "INZHENER TRUBIN",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "8502107",
+      "mmsi": "273354480",
+      "name": "INZHENER VESHNYAKOV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9289520",
+      "mmsi": "668116153",
+      "name": "DHEZI",
+      "flag": "Sint Maarten",
+      "vesselType": "Chemical/Products Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9256858",
+      "mmsi": "273210170",
+      "name": "Inda",
+      "flag": "Guyana",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9210359",
+      "mmsi": "273336180",
+      "name": "S. KUZNETSOV",
+      "flag": "Russia",
+      "vesselType": "General Cargo",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9285859",
+      "mmsi": "650640000",
+      "name": "AZORIN",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9249312",
+      "mmsi": "667001624",
+      "name": "IZOLA",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9137648",
+      "mmsi": "667002403",
+      "name": "CARUZO",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9387255",
+      "mmsi": "511101775",
+      "name": "Azure",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9288722",
+      "mmsi": "629009604",
+      "name": "RORA",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9630028",
+      "mmsi": "620800017",
+      "name": "PERLE",
+      "flag": "Oman",
+      "vesselType": "LNG Tanker | M\u00e9thanier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "US"
+      ]
+    },
+    {
+      "imo": "9630004",
+      "mmsi": "461000243",
+      "name": "VALERA",
+      "flag": "Oman",
+      "vesselType": "LNG Tanker | M\u00e9thanier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9330472",
+      "mmsi": "667001235",
+      "name": "Thorin",
+      "flag": "Panama",
+      "vesselType": "Oil Tanker | P\u00e9trolier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9640516",
+      "mmsi": "273353450",
+      "name": "VELES",
+      "flag": "Russia",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9830769",
+      "mmsi": "352003361",
+      "name": "BRIGHT OCEAN",
+      "flag": "MALI",
+      "vesselType": "Heavy Lift Vessel",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "US"
+      ]
+    },
+    {
+      "imo": "9585912",
+      "mmsi": "273452590",
+      "name": "Marlin",
+      "flag": "Russia",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9459242",
+      "mmsi": "667002315",
+      "name": "Feliks",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Products Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9382798",
+      "mmsi": "629009638",
+      "name": "Trust",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9308833",
+      "mmsi": "667001256",
+      "name": "KUSTO",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9308443",
+      "mmsi": "610000035",
+      "name": "INA",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9653070",
+      "mmsi": "273320710",
+      "name": "RN USSURI",
+      "flag": "Russia",
+      "vesselType": "Tug",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9613551",
+      "mmsi": "273369290",
+      "name": "ALEKSEY CHIRIKOV",
+      "flag": "Russia",
+      "vesselType": "Supply Vessel",
+      "sanctioners": [
+        "US"
+      ]
+    },
+    {
+      "imo": "9419137",
+      "mmsi": "629009628",
+      "name": "SKIF",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9511533",
+      "mmsi": "461000256",
+      "name": "PRIMAVERA",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9321706",
+      "mmsi": "620999829",
+      "name": "LIDER",
+      "flag": "Russia",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9321689",
+      "mmsi": "650630000",
+      "name": "NAVIGATOR RIDGE",
+      "flag": "Mozambique",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9316127",
+      "mmsi": "461000239",
+      "name": "DISCOVERY",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9301615",
+      "mmsi": "636022546",
+      "name": "SIRTIC",
+      "flag": "Guinea",
+      "vesselType": "Chemical/Products Tanker | Transporteur de produits chimiques",
+      "sanctioners": [
+        "CA",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9741724",
+      "mmsi": "273614220",
+      "name": "ALARA",
+      "flag": "Russia",
+      "vesselType": "Bulk Carrier | Navire vraquier",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "US"
+      ]
+    },
+    {
+      "imo": "9418482",
+      "mmsi": "632001141",
+      "name": "Cetus",
+      "flag": "Sierra leone",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9326718",
+      "mmsi": "667002327",
+      "name": "Fulger",
+      "flag": "Sierra Leone",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9321847",
+      "mmsi": "668116314",
+      "name": "AREIA",
+      "flag": "Sao Tome &amp; Principe",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "UK",
+        "US"
+      ]
+    },
+    {
+      "imo": "9318539",
+      "mmsi": "613741301",
+      "name": "NOSU",
+      "flag": "Cameroon",
+      "vesselType": "Oil Tanker",
+      "sanctioners": [
+        "AU",
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    },
+    {
+      "imo": "9421972",
+      "mmsi": "461000232",
+      "name": "SPARTAN",
+      "flag": "Oman",
+      "vesselType": "Oil Tanker | Navire-citerne pour produits p\u00e9troliers",
+      "sanctioners": [
+        "CA",
+        "EU",
+        "NZ",
+        "UK"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,22 @@
 import { put, list } from "@vercel/blob";
 import { lookupFlag } from "./mid-to-country";
 import alignments from "../data/alignments.json";
+import shadowFleetData from "../data/shadow-fleet.json";
+
+// Build MMSI lookup for shadow fleet vessels
+const shadowFleetByMMSI = new Map<
+  string,
+  { name: string; imo: string; sanctioners: string[] }
+>();
+for (const v of shadowFleetData.vessels) {
+  if (v.mmsi) {
+    shadowFleetByMMSI.set(v.mmsi, {
+      name: v.name,
+      imo: v.imo,
+      sanctioners: v.sanctioners,
+    });
+  }
+}
 
 const API_BASE = "https://api.vesselapi.com/v1";
 const BLOB_PREFIX = "strait-tracker";
@@ -196,24 +212,30 @@ export async function getCachedVessels(): Promise<CachedData | null> {
 export function toGeoJSON(data: CachedData): GeoJSON.FeatureCollection {
   return {
     type: "FeatureCollection",
-    features: data.vessels.map((v) => ({
-      type: "Feature" as const,
-      geometry: {
-        type: "Point" as const,
-        coordinates: [v.lon, v.lat],
-      },
-      properties: {
-        mmsi: v.mmsi,
-        name: v.name,
-        destination: "",
-        flagCountry: v.flagCountry,
-        flagEmoji: v.flagEmoji,
-        sog: v.sog,
-        cog: v.heading,
-        alignment: getAlignment(v.flagCountry),
-        label: `${v.flagEmoji} ${v.name}`.trim(),
-      },
-    })),
+    features: data.vessels.map((v) => {
+      const shadow = shadowFleetByMMSI.get(String(v.mmsi));
+      const isShadowFleet = !!shadow;
+      return {
+        type: "Feature" as const,
+        geometry: {
+          type: "Point" as const,
+          coordinates: [v.lon, v.lat],
+        },
+        properties: {
+          mmsi: v.mmsi,
+          name: v.name,
+          destination: "",
+          flagCountry: v.flagCountry,
+          flagEmoji: v.flagEmoji,
+          sog: v.sog,
+          cog: v.heading,
+          alignment: isShadowFleet ? "red" : getAlignment(v.flagCountry),
+          shadowFleet: isShadowFleet,
+          sanctioners: shadow?.sanctioners?.join(", ") ?? "",
+          label: `${v.flagEmoji} ${v.name}`.trim(),
+        },
+      };
+    }),
   };
 }
 
