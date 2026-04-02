@@ -39,3 +39,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# vessel data cache (snapshots are tracked for history)
+data/vessels.json

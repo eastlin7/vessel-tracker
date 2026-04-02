@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Strait Tracker
 
-## Getting Started
+Real-time vessel tracking across the Persian Gulf and Strait of Hormuz. Ships are color-coded by geopolitical alignment and tracked over time with historical snapshots.
 
-First, run the development server:
+## Features
+
+- Interactive dark-themed map centered on the Persian Gulf
+- Vessels color-coded by geopolitical alignment (US-aligned, EU-aligned, China-aligned, non-aligned)
+- Historical snapshots — sync vessel positions and compare how traffic changes over time
+- Movement trails showing ship paths between snapshots
+- Click any vessel for details (flag, alignment, speed, MMSI)
+- Password-protected sync to conserve API quota
+
+## Tech Stack
+
+- **Next.js** (App Router) on Vercel
+- **MapLibre GL JS** for GPU-accelerated map rendering
+- **Vessel API** for AIS vessel position data
+- **Vercel Blob** for persistent snapshot storage
+- **Stadia Maps** dark tiles
+
+## Setup
+
+```bash
+npm install
+```
+
+Create `.env.local`:
+
+```
+VESSEL_API_KEY=your_vessel_api_key
+SYNC_TOKEN=your_sync_password
+BLOB_READ_WRITE_TOKEN=your_vercel_blob_token
+```
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Deploy to Vercel and set the environment variables above. The `BLOB_READ_WRITE_TOKEN` is created automatically when you add a Blob store to your project via the Vercel dashboard (Storage > Create > Blob).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Configuration
 
-## Learn More
+- `data/alignments.json` — edit to reclassify country alignments
+- Sync is rate-limited by the Vessel API quota (~150 requests/month)
 
-To learn more about Next.js, take a look at the following resources:
+## Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Emil

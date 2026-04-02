@@ -1,0 +1,378 @@
+"use client";
+
+import { useEffect, useRef, useState, useCallback } from "react";
+import maplibregl from "maplibre-gl";
+import "maplibre-gl/dist/maplibre-gl.css";
+
+const STRAIT_CENTER: [number, number] = [54.0, 26.0];
+const INITIAL_ZOOM = 5.5;
+
+interface SnapshotMeta {
+  id: string;
+  fetchedAt: string;
+  count: number;
+}
+
+const ALIGNMENT_COLORS: Record<string, string> = {
+  green: "#00cc66",
+  blue: "#4488ff",
+  red: "#ff4444",
+  yellow: "#ddaa00",
+};
+
+const ALIGNMENT_MATCH = [
+  "match",
+  ["get", "alignment"],
+  "green",
+  "#00cc66",
+  "blue",
+  "#4488ff",
+  "red",
+  "#ff4444",
+  "yellow",
+  "#ddaa00",
+  "#ddaa00",
+] as maplibregl.ExpressionSpecification;
+
+const STROKE_MATCH = [
+  "match",
+  ["get", "alignment"],
+  "green",
+  "#004d26",
+  "blue",
+  "#1a3366",
+  "red",
+  "#661a1a",
+  "yellow",
+  "#665500",
+  "#665500",
+] as maplibregl.ExpressionSpecification;
+
+export default function Map() {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const mapRef = useRef<maplibregl.Map | null>(null);
+  const [shipCount, setShipCount] = useState(0);
+  const [fetchedAt, setFetchedAt] = useState<string | null>(null);
+  const [refreshing, setRefreshing] = useState(false);
+  const [snapshots, setSnapshots] = useState<SnapshotMeta[]>([]);
+  const [activeSnapshot, setActiveSnapshot] = useState<string | null>(null);
+
+  const updateMap = useCallback(
+    (geojson: GeoJSON.FeatureCollection, trails: GeoJSON.FeatureCollection) => {
+      const map = mapRef.current;
+      if (!map) return;
+      const shipsSource = map.getSource("ships") as maplibregl.GeoJSONSource;
+      if (shipsSource) shipsSource.setData(geojson);
+      const trailsSource = map.getSource("trails") as maplibregl.GeoJSONSource;
+      if (trailsSource) trailsSource.setData(trails);
+    },
+    []
+  );
+
+  async function loadCached() {
+    const res = await fetch("/api/ships");
+    const data = await res.json();
+    setShipCount(data._meta?.count ?? data.features?.length ?? 0);
+    setFetchedAt(data._meta?.fetchedAt ?? null);
+    setSnapshots(data._meta?.snapshots ?? []);
+    if (data._meta?.snapshots?.[0]) {
+      setActiveSnapshot(data._meta.snapshots[0].id);
+    }
+    const trails = data.trails ?? { type: "FeatureCollection", features: [] };
+    updateMap(data, trails);
+  }
+
+  async function handleRefresh() {
+    const token = prompt("Password:");
+    if (!token) return;
+    setRefreshing(true);
+    try {
+      const res = await fetch("/api/vessels/refresh", {
+        method: "POST",
+        headers: { "x-sync-token": token },
+      });
+      const data = await res.json();
+      if (data.error) {
+        alert("Refresh failed: " + data.error);
+        return;
+      }
+      setShipCount(data.count);
+      setFetchedAt(data.fetchedAt);
+      setSnapshots(data.snapshots ?? []);
+      if (data.snapshots?.[0]) setActiveSnapshot(data.snapshots[0].id);
+      updateMap(
+        data.geojson,
+        data.trails ?? { type: "FeatureCollection", features: [] }
+      );
+    } catch {
+      alert("Refresh failed");
+    } finally {
+      setRefreshing(false);
+    }
+  }
+
+  async function loadSnapshot(id: string) {
+    setActiveSnapshot(id);
+    const res = await fetch(`/api/snapshots?id=${encodeURIComponent(id)}`);
+    const data = await res.json();
+    if (data.error) return;
+    setShipCount(data.count);
+    setFetchedAt(data.fetchedAt);
+    updateMap(
+      data.geojson,
+      data.trails ?? { type: "FeatureCollection", features: [] }
+    );
+  }
+
+  useEffect(() => {
+    if (!containerRef.current) return;
+
+    const map = new maplibregl.Map({
+      container: containerRef.current,
+      style: "https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json",
+      center: STRAIT_CENTER,
+      zoom: INITIAL_ZOOM,
+      attributionControl: false,
+    });
+
+    map.addControl(
+      new maplibregl.AttributionControl({ compact: true }),
+      "bottom-right"
+    );
+    map.addControl(new maplibregl.NavigationControl(), "top-right");
+    mapRef.current = map;
+
+    map.on("load", () => {
+      // Trail lines source + layer (rendered below ships)
+      map.addSource("trails", {
+        type: "geojson",
+        data: { type: "FeatureCollection", features: [] },
+      });
+
+      map.addLayer({
+        id: "trails-lines",
+        type: "line",
+        source: "trails",
+        paint: {
+          "line-color": ALIGNMENT_MATCH,
+          "line-width": 2,
+          "line-opacity": 0.4,
+          "line-dasharray": [2, 2],
+        },
+      });
+
+      // Ships source
+      map.addSource("ships", {
+        type: "geojson",
+        data: { type: "FeatureCollection", features: [] },
+      });
+
+      map.addLayer({
+        id: "ships-circles",
+        type: "circle",
+        source: "ships",
+        paint: {
+          "circle-radius": 5,
+          "circle-color": ALIGNMENT_MATCH,
+          "circle-stroke-width": 1,
+          "circle-stroke-color": STROKE_MATCH,
+          "circle-opacity": 0.9,
+        },
+      });
+
+      map.addLayer({
+        id: "ships-labels",
+        type: "symbol",
+        source: "ships",
+        layout: {
+          "text-field": ["get", "label"],
+          "text-size": 11,
+          "text-offset": [0, -1.5],
+          "text-anchor": "bottom",
+          "text-allow-overlap": false,
+          "text-ignore-placement": false,
+        },
+        paint: {
+          "text-color": ALIGNMENT_MATCH,
+          "text-halo-color": "#000000",
+          "text-halo-width": 1,
+        },
+      });
+
+      const popup = new maplibregl.Popup({
+        closeButton: true,
+        closeOnClick: true,
+        maxWidth: "280px",
+      });
+
+      map.on("click", "ships-circles", (e) => {
+        if (!e.features?.length) return;
+        const props = e.features[0].properties;
+        const coords = (e.features[0].geometry as GeoJSON.Point).coordinates;
+
+        popup
+          .setLngLat(coords as [number, number])
+          .setHTML(
+            `<div style="font-family:system-ui;font-size:13px;line-height:1.5">
+              <strong>${props.flagEmoji} ${props.name || "Unknown"}</strong><br/>
+              <span style="color:#aaa">Flag:</span> ${props.flagCountry}<br/>
+              <span style="color:#aaa">Alignment:</span> ${props.alignment}<br/>
+              <span style="color:#aaa">Speed:</span> ${props.sog} kn<br/>
+              <span style="color:#aaa">MMSI:</span> ${props.mmsi}
+            </div>`
+          )
+          .addTo(map);
+      });
+
+      map.on("mouseenter", "ships-circles", () => {
+        map.getCanvas().style.cursor = "pointer";
+      });
+      map.on("mouseleave", "ships-circles", () => {
+        map.getCanvas().style.cursor = "";
+      });
+
+      loadCached();
+    });
+
+    return () => {
+      map.remove();
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const timeLabel = fetchedAt
+    ? new Date(fetchedAt).toLocaleString()
+    : "never";
+
+  return (
+    <div style={{ position: "relative", width: "100vw", height: "100dvh" }}>
+      <div ref={containerRef} style={{ width: "100%", height: "100%" }} />
+
+      {/* Top bar */}
+      <div
+        style={{
+          position: "absolute",
+          top: 12,
+          left: 12,
+          background: "rgba(0,0,0,0.8)",
+          color: "#fff",
+          padding: "8px 14px",
+          borderRadius: 8,
+          fontSize: 13,
+          fontFamily: "system-ui, sans-serif",
+          display: "flex",
+          alignItems: "center",
+          gap: 10,
+          backdropFilter: "blur(4px)",
+        }}
+      >
+        <span
+          style={{
+            width: 8,
+            height: 8,
+            borderRadius: "50%",
+            background: shipCount > 0 ? "#00ff88" : "#ffaa00",
+            display: "inline-block",
+          }}
+        />
+        <span>
+          <strong>Persian Gulf</strong> &mdash; {shipCount} ships
+        </span>
+        <button
+          onClick={handleRefresh}
+          disabled={refreshing}
+          className="sync-btn"
+        >
+          {refreshing ? "Syncing..." : "Sync"}
+        </button>
+      </div>
+
+      {/* Legend */}
+      <div
+        style={{
+          position: "absolute",
+          bottom: 30,
+          left: 12,
+          background: "rgba(0,0,0,0.8)",
+          color: "#fff",
+          padding: "8px 12px",
+          borderRadius: 8,
+          fontSize: 11,
+          fontFamily: "system-ui, sans-serif",
+          display: "flex",
+          gap: 12,
+          backdropFilter: "blur(4px)",
+        }}
+      >
+        {Object.entries(ALIGNMENT_COLORS).map(([key, color]) => (
+          <span key={key} style={{ display: "flex", alignItems: "center", gap: 4 }}>
+            <span
+              style={{
+                width: 8,
+                height: 8,
+                borderRadius: "50%",
+                background: color,
+                display: "inline-block",
+              }}
+            />
+            {key === "green"
+              ? "US-aligned"
+              : key === "blue"
+                ? "EU-aligned"
+                : key === "red"
+                  ? "China-aligned"
+                  : "Non-aligned"}
+          </span>
+        ))}
+      </div>
+
+      {/* Snapshot selector */}
+      {snapshots.length > 0 && (
+        <div
+          style={{
+            position: "absolute",
+            top: 12,
+            right: 50,
+            background: "rgba(0,0,0,0.8)",
+            color: "#fff",
+            padding: "8px 12px",
+            borderRadius: 8,
+            fontSize: 12,
+            fontFamily: "system-ui, sans-serif",
+            backdropFilter: "blur(4px)",
+            maxHeight: "50vh",
+            overflowY: "auto",
+          }}
+        >
+          <div style={{ marginBottom: 6, fontWeight: "bold", fontSize: 11, color: "#888" }}>
+            SNAPSHOTS ({snapshots.length})
+          </div>
+          {snapshots.map((s) => {
+            const isActive = s.id === activeSnapshot;
+            const d = new Date(s.fetchedAt);
+            return (
+              <div
+                key={s.id}
+                onClick={() => loadSnapshot(s.id)}
+                style={{
+                  padding: "4px 8px",
+                  marginBottom: 2,
+                  borderRadius: 4,
+                  cursor: "pointer",
+                  background: isActive ? "rgba(255,255,255,0.1)" : "transparent",
+                  borderLeft: isActive ? "2px solid #00ff88" : "2px solid transparent",
+                  whiteSpace: "nowrap",
+                }}
+              >
+                <span style={{ color: isActive ? "#00ff88" : "#ccc" }}>
+                  {d.toLocaleDateString()} {d.toLocaleTimeString()}
+                </span>
+                <span style={{ color: "#666", marginLeft: 6 }}>{s.count} ships</span>
+              </div>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
