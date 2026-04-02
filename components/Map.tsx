@@ -217,7 +217,7 @@ export default function Map() {
             `<div style="font-family:system-ui;font-size:13px;line-height:1.5">
               <strong>${props.flagEmoji} ${props.name || "Unknown"}</strong><br/>
               <span style="color:#aaa">Flag:</span> ${props.flagCountry}<br/>
-              <span style="color:#aaa">Alignment:</span> ${props.alignment}<br/>
+              <span style="color:#aaa">Alignment:</span> ${props.alignment === "green" ? "US-aligned" : props.alignment === "blue" ? "EU-aligned" : props.alignment === "red" ? "China/Russia-aligned" : "Non-aligned"}<br/>
               <span style="color:#aaa">Speed:</span> ${props.sog} kn<br/>
               <span style="color:#aaa">MMSI:</span> ${props.mmsi}
             </div>`
@@ -321,7 +321,7 @@ export default function Map() {
               : key === "blue"
                 ? "EU-aligned"
                 : key === "red"
-                  ? "China-aligned"
+                  ? "China/Russia-aligned"
                   : "Non-aligned"}
           </span>
         ))}
