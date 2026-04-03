@@ -331,7 +331,10 @@ export default function Map() {
               using AIS transponder data.
             </p>
             <p style={{ color: "#aaa", lineHeight: 1.6, marginBottom: 16 }}>
-              Built with Next.js, MapLibre GL, and AIS vessel data.
+              Ship data sourced from{" "}
+              <a href="https://vesselsapi.com" target="_blank" rel="noopener noreferrer" style={{ color: "#00ff88", textDecoration: "none" }}>vesselsapi.com</a>.
+              Shadow fleet data from{" "}
+              <a href="https://fleetleaks.com" target="_blank" rel="noopener noreferrer" style={{ color: "#00ff88", textDecoration: "none" }}>fleetleaks.com</a>.
               Snapshots are captured periodically to show traffic patterns
               over time.
             </p>
@@ -344,7 +347,7 @@ export default function Map() {
                   rel="noopener noreferrer"
                   style={{ color: "#00ff88", textDecoration: "none" }}
                 >
-                  Emil Ostlin
+                  Emil Östlin
                 </a>
               </p>
             </div>
@@ -412,7 +415,7 @@ export default function Map() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Emil Ostlin
+            Emil Östlin
           </a>
         </span>
       </div>
