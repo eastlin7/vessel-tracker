@@ -126,6 +126,7 @@ async function writeBlob(name: string, data: unknown): Promise<string> {
   const blob = await put(`${BLOB_PREFIX}/${name}`, JSON.stringify(data), {
     access: "public",
     addRandomSuffix: false,
+    allowOverwrite: true,
     contentType: "application/json",
   });
   return blob.url;
