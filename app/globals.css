@@ -83,6 +83,91 @@ body {
   50% { opacity: 0.3; }
 }
 
+/* Footer attribution */
+.footer-bar {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  color: #777;
+  font-size: 11px;
+  font-family: system-ui, sans-serif;
+  padding: 4px 14px;
+  border-radius: 20px;
+  white-space: nowrap;
+  z-index: 5;
+}
+
+.footer-bar a {
+  color: #00ff88;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.footer-bar a:hover {
+  color: #33ffaa;
+  text-decoration: underline;
+}
+
+/* About button (inline in top bar) */
+.about-btn-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  color: #666;
+  border: none;
+  cursor: pointer;
+  padding: 2px;
+  transition: color 0.15s;
+}
+
+.about-btn-inline:hover {
+  color: #00ff88;
+}
+
+/* About overlay & panel */
+.about-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  backdrop-filter: blur(2px);
+}
+
+.about-panel {
+  position: relative;
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 420px;
+  width: calc(100% - 32px);
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+}
+
+.about-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  padding: 4px;
+  transition: color 0.15s;
+}
+
+.about-close:hover {
+  color: #fff;
+}
+
 .snapshots-list {
   margin-top: 4px;
   background: rgba(0, 0, 0, 0.85);

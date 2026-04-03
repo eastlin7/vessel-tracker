@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Strait of Hormuz Tracker",
-  description: "Real-time ship tracking through the Strait of Hormuz",
+  description: "Ship tracking through the Strait of Hormuz",
 };
 
 export default function RootLayout({

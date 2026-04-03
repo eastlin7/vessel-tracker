@@ -58,6 +58,7 @@ export default function Map() {
   const [activeSnapshot, setActiveSnapshot] = useState<string | null>(null);
   const [snapshotsOpen, setSnapshotsOpen] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [aboutOpen, setAboutOpen] = useState(false);
 
   const updateMap = useCallback(
     (geojson: GeoJSON.FeatureCollection, trails: GeoJSON.FeatureCollection) => {
@@ -223,7 +224,7 @@ export default function Map() {
               <span style="color:#aaa">Alignment:</span> ${props.alignment === "green" ? "US-aligned" : props.alignment === "blue" ? "EU-aligned" : props.alignment === "red" ? "China/Russia-aligned" : "Non-aligned"}<br/>
               ${props.sanctioners ? `<span style="color:#aaa">Sanctioned by:</span> ${props.sanctioners}<br/>` : ""}
               <span style="color:#aaa">Speed:</span> ${props.sog} kn<br/>
-              <span style="color:#aaa">MMSI:</span> ${props.mmsi}
+              <span style="color:#aaa">MMSI:</span> <a href="https://www.vesselfinder.com/vessels/details/${props.mmsi}" target="_blank" rel="noopener noreferrer" style="color:#00ff88;text-decoration:none">${props.mmsi}</a>
             </div>`
           )
           .addTo(map);
@@ -292,7 +293,59 @@ export default function Map() {
         >
           {refreshing ? "Syncing..." : "Sync"}
         </button>
+        <button
+          onClick={() => setAboutOpen(true)}
+          className="about-btn-inline"
+          aria-label="About this project"
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <line x1="12" y1="16" x2="12" y2="12" />
+            <line x1="12" y1="8" x2="12.01" y2="8" />
+          </svg>
+        </button>
       </div>
+
+      {/* About panel */}
+      {aboutOpen && (
+        <div className="about-overlay" onClick={() => setAboutOpen(false)}>
+          <div className="about-panel" onClick={(e) => e.stopPropagation()}>
+            <button className="about-close" onClick={() => setAboutOpen(false)}>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
+            <h2 style={{ fontSize: 18, fontWeight: 600, marginBottom: 12, color: "#fff" }}>
+              Strait of Hormuz Tracker
+            </h2>
+            <p style={{ color: "#aaa", lineHeight: 1.6, marginBottom: 12 }}>
+              Periodically updated visualization of maritime traffic through
+              one of the world&apos;s most strategically important waterways.
+              Ships are color-coded by geopolitical alignment and tracked
+              using AIS transponder data.
+            </p>
+            <p style={{ color: "#aaa", lineHeight: 1.6, marginBottom: 16 }}>
+              Built with Next.js, MapLibre GL, and AIS vessel data.
+              Snapshots are captured periodically to show traffic patterns
+              over time.
+            </p>
+            <div style={{ borderTop: "1px solid #333", paddingTop: 12 }}>
+              <p style={{ color: "#ccc", fontSize: 13 }}>
+                Made by{" "}
+                <a
+                  href="https://emil.ostlin.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "#00ff88", textDecoration: "none" }}
+                >
+                  Emil Ostlin
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Legend */}
       <div
@@ -331,6 +384,20 @@ export default function Map() {
                   : "Non-aligned"}
           </span>
         ))}
+      </div>
+
+      {/* Footer attribution */}
+      <div className="footer-bar">
+        <span>
+          Built by{" "}
+          <a
+            href="https://emil.ostlin.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Emil Ostlin
+          </a>
+        </span>
       </div>
 
       {/* Snapshot selector */}
