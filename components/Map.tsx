@@ -20,32 +20,37 @@ const ALIGNMENT_COLORS: Record<string, string> = {
   yellow: "#ddaa00",
 };
 
+const SHADOW_COLOR = "#ff8800";
+const SHADOW_STROKE = "#664400";
+
 const ALIGNMENT_MATCH = [
-  "match",
-  ["get", "alignment"],
-  "green",
-  "#00cc66",
-  "blue",
-  "#4488ff",
-  "red",
-  "#ff4444",
-  "yellow",
-  "#ddaa00",
-  "#ddaa00",
+  "case",
+  ["any", ["==", ["get", "shadowFleet"], true], ["==", ["get", "shadowFleet"], "true"]],
+  SHADOW_COLOR,
+  [
+    "match",
+    ["get", "alignment"],
+    "green", "#00cc66",
+    "blue", "#4488ff",
+    "red", "#ff4444",
+    "yellow", "#ddaa00",
+    "#ddaa00",
+  ],
 ] as maplibregl.ExpressionSpecification;
 
 const STROKE_MATCH = [
-  "match",
-  ["get", "alignment"],
-  "green",
-  "#004d26",
-  "blue",
-  "#1a3366",
-  "red",
-  "#661a1a",
-  "yellow",
-  "#665500",
-  "#665500",
+  "case",
+  ["any", ["==", ["get", "shadowFleet"], true], ["==", ["get", "shadowFleet"], "true"]],
+  SHADOW_STROKE,
+  [
+    "match",
+    ["get", "alignment"],
+    "green", "#004d26",
+    "blue", "#1a3366",
+    "red", "#661a1a",
+    "yellow", "#665500",
+    "#665500",
+  ],
 ] as maplibregl.ExpressionSpecification;
 
 export default function Map() {
@@ -224,7 +229,7 @@ export default function Map() {
               <span style="color:#aaa">Alignment:</span> ${props.alignment === "green" ? "US-aligned" : props.alignment === "blue" ? "EU-aligned" : props.alignment === "red" ? "China/Russia-aligned" : "Non-aligned"}<br/>
               ${props.sanctioners ? `<span style="color:#aaa">Sanctioned by:</span> ${props.sanctioners}<br/>` : ""}
               <span style="color:#aaa">Speed:</span> ${props.sog} kn<br/>
-              <span style="color:#aaa">MMSI:</span> <a href="https://www.vesselfinder.com/vessels/details/${props.mmsi}" target="_blank" rel="noopener noreferrer" style="color:#00ff88;text-decoration:none">${props.mmsi}</a>
+              <span style="color:#aaa">MMSI:</span> <a href="https://www.vesselfinder.com/vessels/details/${props.mmsi}" target="_blank" rel="noopener noreferrer" style="color:#000;font-weight:bold;text-decoration:none">${props.mmsi}</a>
             </div>`
           )
           .addTo(map);
@@ -384,6 +389,18 @@ export default function Map() {
                   : "Non-aligned"}
           </span>
         ))}
+        <span style={{ display: "flex", alignItems: "center", gap: 4 }}>
+          <span
+            style={{
+              width: 8,
+              height: 8,
+              borderRadius: "50%",
+              background: SHADOW_COLOR,
+              display: "inline-block",
+            }}
+          />
+          Shadow Fleet
+        </span>
       </div>
 
       {/* Footer attribution */}
