@@ -34,6 +34,9 @@ const TILES = [
   { latBottom: 23.0, latTop: 25.0, lonLeft: 58.0, lonRight: 60.0 },
   { latBottom: 25.0, latTop: 27.0, lonLeft: 58.0, lonRight: 60.0 },
   { latBottom: 23.0, latTop: 25.0, lonLeft: 54.0, lonRight: 56.0 },
+  // Extended east — catches ships further into the Gulf of Oman
+  { latBottom: 23.0, latTop: 25.0, lonLeft: 60.0, lonRight: 62.0 },
+  { latBottom: 25.0, latTop: 27.0, lonLeft: 60.0, lonRight: 62.0 },
 ];
 
 export interface VesselData {
@@ -278,10 +281,25 @@ export async function computeTransits(): Promise<TransitStats> {
     else snapshotData.push({ fetchedAt: meta.fetchedAt, vessels: [] });
   }
 
-  // Track how many consecutive snapshots each MMSI has appeared in
+  // Track per-MMSI: presence count and last two positions
   const presenceCount = new Map<number, number>();
+  const lastPositions = new Map<number, { lat: number; lon: number }[]>();
   const events: TransitEvent[] = [];
   const counted = new Set<string>(); // "mmsi-direction" to avoid double-counting
+
+  // Minimum distance (degrees) a ship must have moved across its tracked
+  // positions to count as a genuine transit, not AIS flicker (~0.1° ≈ 11 km)
+  const MIN_MOVEMENT = 0.1;
+
+  function hasMoved(mmsi: number): boolean {
+    const positions = lastPositions.get(mmsi);
+    if (!positions || positions.length < 2) return false;
+    const first = positions[0];
+    const last = positions[positions.length - 1];
+    const dLat = Math.abs(last.lat - first.lat);
+    const dLon = Math.abs(last.lon - first.lon);
+    return dLat >= MIN_MOVEMENT || dLon >= MIN_MOVEMENT;
+  }
 
   for (let i = 1; i < oldestFirst.length; i++) {
     const prevVessels = new Map<number, VesselData>();
@@ -290,18 +308,21 @@ export async function computeTransits(): Promise<TransitStats> {
     const currVessels = new Map<number, VesselData>();
     for (const v of snapshotData[i].vessels) currVessels.set(v.mmsi, v);
 
-    // Update presence counts
+    // Update presence counts and position history
     const newPresence = new Map<number, number>();
-    for (const mmsi of currVessels.keys()) {
+    for (const [mmsi, v] of currVessels) {
       newPresence.set(mmsi, (presenceCount.get(mmsi) ?? 0) + 1);
+      const hist = lastPositions.get(mmsi) ?? [];
+      hist.push({ lat: v.lat, lon: v.lon });
+      // Keep first + last to measure total displacement
+      if (hist.length > 10) hist.splice(1, 1);
+      lastPositions.set(mmsi, hist);
     }
 
-    // Departed: in prev but not in curr, and was present in 2+ snapshots
+    // Departed: in prev but not in curr, present in 2+ snapshots, and moved
     for (const [mmsi, vessel] of prevVessels) {
-      if (!currVessels.has(mmsi) && (presenceCount.get(mmsi) ?? 0) >= 2) {
+      if (!currVessels.has(mmsi) && (presenceCount.get(mmsi) ?? 0) >= 2 && hasMoved(mmsi)) {
         const isShadow = shadowFleetByMMSI.has(String(mmsi));
-        // Eastbound departure: last seen east of 54°E (near strait)
-        // Westbound departure: last seen west of 52°E (left via northwest)
         const key = `${mmsi}-east`;
         if (vessel.lon >= 54.0 && !counted.has(key)) {
           counted.add(key);
@@ -317,6 +338,7 @@ export async function computeTransits(): Promise<TransitStats> {
             fetchedAt: oldestFirst[i].fetchedAt,
           });
         }
+        lastPositions.delete(mmsi);
       }
     }
 
@@ -324,7 +346,6 @@ export async function computeTransits(): Promise<TransitStats> {
     for (const [mmsi, vessel] of currVessels) {
       if (!prevVessels.has(mmsi) && !presenceCount.has(mmsi)) {
         const isShadow = shadowFleetByMMSI.has(String(mmsi));
-        // Westbound arrival: first seen east of 54°E (entered from east through strait)
         const key = `${mmsi}-west`;
         if (vessel.lon >= 54.0 && !counted.has(key)) {
           counted.add(key);
