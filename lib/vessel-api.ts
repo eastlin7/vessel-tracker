@@ -198,6 +198,18 @@ export async function refreshVessels(): Promise<CachedData> {
   console.log(
     `[VesselAPI] Cached ${allVessels.length} vessels, snapshot: ${snapshotId}`
   );
+
+  // Precompute trails + transits so page loads don't have to
+  const [trails, transits] = await Promise.all([
+    buildTrails(snapshotId),
+    existingIndex.length >= 2 ? computeTransits() : Promise.resolve(null),
+  ]);
+  await Promise.all([
+    writeBlob("trails.json", trails),
+    transits ? writeBlob("transits.json", transits) : Promise.resolve(),
+  ]);
+  console.log(`[VesselAPI] Precomputed trails + transits`);
+
   return cached;
 }
 
@@ -211,6 +223,14 @@ export async function listSnapshots(): Promise<SnapshotMeta[]> {
 
 export async function getCachedVessels(): Promise<CachedData | null> {
   return readBlob<CachedData>("latest.json");
+}
+
+export async function getCachedTrails(): Promise<GeoJSON.FeatureCollection | null> {
+  return readBlob<GeoJSON.FeatureCollection>("trails.json");
+}
+
+export async function getCachedTransits(): Promise<TransitStats | null> {
+  return readBlob<TransitStats>("transits.json");
 }
 
 export function toGeoJSON(data: CachedData): GeoJSON.FeatureCollection {

@@ -1,12 +1,14 @@
 import { NextResponse } from "next/server";
-import { getCachedVessels, toGeoJSON, listSnapshots, buildTrails, computeTransits } from "@/lib/vessel-api";
+import { getCachedVessels, toGeoJSON, listSnapshots, getCachedTrails, getCachedTransits, buildTrails, computeTransits } from "@/lib/vessel-api";
 
 export const dynamic = "force-dynamic";
 
 export async function GET() {
-  const [cached, snapshots] = await Promise.all([
+  const [cached, snapshots, preTrails, preTransits] = await Promise.all([
     getCachedVessels(),
     listSnapshots(),
+    getCachedTrails(),
+    getCachedTransits(),
   ]);
 
   if (!cached) {
@@ -19,15 +21,12 @@ export async function GET() {
   }
 
   const geojson = toGeoJSON(cached);
-  const currentId = snapshots[0]?.id;
-  const [trails, transits] = await Promise.all([
-    currentId
-      ? buildTrails(currentId)
-      : Promise.resolve({ type: "FeatureCollection", features: [] }),
-    snapshots.length >= 2
-      ? computeTransits()
-      : Promise.resolve(null),
-  ]);
+
+  // Use precomputed data if available, fall back to computing on the fly
+  const trails = preTrails
+    ?? (snapshots[0]?.id ? await buildTrails(snapshots[0].id) : { type: "FeatureCollection", features: [] });
+  const transits = preTransits
+    ?? (snapshots.length >= 2 ? await computeTransits() : null);
 
   return NextResponse.json({
     ...geojson,
