@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getCachedVessels, toGeoJSON, listSnapshots, buildTrails } from "@/lib/vessel-api";
+import { getCachedVessels, toGeoJSON, listSnapshots, buildTrails, computeTransits } from "@/lib/vessel-api";
 
 export const dynamic = "force-dynamic";
 
@@ -20,9 +20,14 @@ export async function GET() {
 
   const geojson = toGeoJSON(cached);
   const currentId = snapshots[0]?.id;
-  const trails = currentId
-    ? await buildTrails(currentId)
-    : { type: "FeatureCollection", features: [] };
+  const [trails, transits] = await Promise.all([
+    currentId
+      ? buildTrails(currentId)
+      : Promise.resolve({ type: "FeatureCollection", features: [] }),
+    snapshots.length >= 2
+      ? computeTransits()
+      : Promise.resolve(null),
+  ]);
 
   return NextResponse.json({
     ...geojson,
@@ -30,6 +35,7 @@ export async function GET() {
       fetchedAt: cached.fetchedAt,
       count: cached.vessels.length,
       snapshots,
+      transits,
     },
     trails,
   });

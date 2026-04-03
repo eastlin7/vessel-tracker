@@ -240,6 +240,129 @@ export function toGeoJSON(data: CachedData): GeoJSON.FeatureCollection {
   };
 }
 
+export interface TransitEvent {
+  mmsi: number;
+  name: string;
+  flagCountry: string;
+  alignment: string;
+  shadowFleet: boolean;
+  direction: "eastbound" | "westbound";
+  lastSeenLon: number;
+  snapshotId: string;
+  fetchedAt: string;
+}
+
+export interface TransitStats {
+  eastbound: { green: number; blue: number; red: number; yellow: number; shadow: number; total: number };
+  westbound: { green: number; blue: number; red: number; yellow: number; shadow: number; total: number };
+  events: TransitEvent[];
+}
+
+export async function computeTransits(): Promise<TransitStats> {
+  const allSnapshots = await listSnapshots();
+  if (allSnapshots.length < 2) {
+    return {
+      eastbound: { green: 0, blue: 0, red: 0, yellow: 0, shadow: 0, total: 0 },
+      westbound: { green: 0, blue: 0, red: 0, yellow: 0, shadow: 0, total: 0 },
+      events: [],
+    };
+  }
+
+  const oldestFirst = [...allSnapshots].reverse();
+
+  // Load all snapshots into memory (keyed by index)
+  const snapshotData: CachedData[] = [];
+  for (const meta of oldestFirst) {
+    const snap = await getSnapshot(meta.id);
+    if (snap) snapshotData.push(snap);
+    else snapshotData.push({ fetchedAt: meta.fetchedAt, vessels: [] });
+  }
+
+  // Track how many consecutive snapshots each MMSI has appeared in
+  const presenceCount = new Map<number, number>();
+  const events: TransitEvent[] = [];
+  const counted = new Set<string>(); // "mmsi-direction" to avoid double-counting
+
+  for (let i = 1; i < oldestFirst.length; i++) {
+    const prevVessels = new Map<number, VesselData>();
+    for (const v of snapshotData[i - 1].vessels) prevVessels.set(v.mmsi, v);
+
+    const currVessels = new Map<number, VesselData>();
+    for (const v of snapshotData[i].vessels) currVessels.set(v.mmsi, v);
+
+    // Update presence counts
+    const newPresence = new Map<number, number>();
+    for (const mmsi of currVessels.keys()) {
+      newPresence.set(mmsi, (presenceCount.get(mmsi) ?? 0) + 1);
+    }
+
+    // Departed: in prev but not in curr, and was present in 2+ snapshots
+    for (const [mmsi, vessel] of prevVessels) {
+      if (!currVessels.has(mmsi) && (presenceCount.get(mmsi) ?? 0) >= 2) {
+        const isShadow = shadowFleetByMMSI.has(String(mmsi));
+        // Eastbound departure: last seen east of 54°E (near strait)
+        // Westbound departure: last seen west of 52°E (left via northwest)
+        const key = `${mmsi}-east`;
+        if (vessel.lon >= 54.0 && !counted.has(key)) {
+          counted.add(key);
+          events.push({
+            mmsi,
+            name: vessel.name,
+            flagCountry: vessel.flagCountry,
+            alignment: isShadow ? "shadow" : getAlignment(vessel.flagCountry),
+            shadowFleet: isShadow,
+            direction: "eastbound",
+            lastSeenLon: vessel.lon,
+            snapshotId: oldestFirst[i].id,
+            fetchedAt: oldestFirst[i].fetchedAt,
+          });
+        }
+      }
+    }
+
+    // Arrived: in curr but not in prev, appearing for the first time
+    for (const [mmsi, vessel] of currVessels) {
+      if (!prevVessels.has(mmsi) && !presenceCount.has(mmsi)) {
+        const isShadow = shadowFleetByMMSI.has(String(mmsi));
+        // Westbound arrival: first seen east of 54°E (entered from east through strait)
+        const key = `${mmsi}-west`;
+        if (vessel.lon >= 54.0 && !counted.has(key)) {
+          counted.add(key);
+          events.push({
+            mmsi,
+            name: vessel.name,
+            flagCountry: vessel.flagCountry,
+            alignment: isShadow ? "shadow" : getAlignment(vessel.flagCountry),
+            shadowFleet: isShadow,
+            direction: "westbound",
+            lastSeenLon: vessel.lon,
+            snapshotId: oldestFirst[i].id,
+            fetchedAt: oldestFirst[i].fetchedAt,
+          });
+        }
+      }
+    }
+
+    presenceCount.clear();
+    for (const [k, v] of newPresence) presenceCount.set(k, v);
+  }
+
+  const stats: TransitStats = {
+    eastbound: { green: 0, blue: 0, red: 0, yellow: 0, shadow: 0, total: 0 },
+    westbound: { green: 0, blue: 0, red: 0, yellow: 0, shadow: 0, total: 0 },
+    events,
+  };
+
+  for (const e of events) {
+    const dir = stats[e.direction];
+    if (e.shadowFleet) dir.shadow++;
+    else if (e.alignment in dir) (dir as Record<string, number>)[e.alignment]++;
+    dir.total++;
+  }
+
+  return stats;
+}
+
 export async function buildTrails(
   currentSnapshotId: string
 ): Promise<GeoJSON.FeatureCollection> {

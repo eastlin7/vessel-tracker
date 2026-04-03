@@ -13,6 +13,20 @@ interface SnapshotMeta {
   count: number;
 }
 
+interface TransitCounts {
+  green: number;
+  blue: number;
+  red: number;
+  yellow: number;
+  shadow: number;
+  total: number;
+}
+
+interface TransitStats {
+  eastbound: TransitCounts;
+  westbound: TransitCounts;
+}
+
 const ALIGNMENT_COLORS: Record<string, string> = {
   green: "#00cc66",
   blue: "#4488ff",
@@ -64,6 +78,8 @@ export default function Map() {
   const [snapshotsOpen, setSnapshotsOpen] = useState(false);
   const [loading, setLoading] = useState(true);
   const [aboutOpen, setAboutOpen] = useState(false);
+  const [transits, setTransits] = useState<TransitStats | null>(null);
+  const [transitsOpen, setTransitsOpen] = useState(false);
 
   const updateMap = useCallback(
     (geojson: GeoJSON.FeatureCollection, trails: GeoJSON.FeatureCollection) => {
@@ -85,6 +101,9 @@ export default function Map() {
     setSnapshots(data._meta?.snapshots ?? []);
     if (data._meta?.snapshots?.[0]) {
       setActiveSnapshot(data._meta.snapshots[0].id);
+    }
+    if (data._meta?.transits) {
+      setTransits(data._meta.transits);
     }
     const trails = data.trails ?? { type: "FeatureCollection", features: [] };
     updateMap(data, trails);
@@ -405,6 +424,74 @@ export default function Map() {
           Shadow Fleet
         </span>
       </div>
+
+      {/* Transit stats */}
+      {transits && transits.eastbound.total + transits.westbound.total > 0 && (
+        <div className="transits-panel">
+          <button
+            className="transits-toggle"
+            onClick={() => setTransitsOpen(!transitsOpen)}
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+            </svg>
+            <span>Strait Transits ({transits.eastbound.total + transits.westbound.total})</span>
+            <svg
+              width="10"
+              height="10"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              style={{
+                transform: transitsOpen ? "rotate(180deg)" : "rotate(0)",
+                transition: "transform 0.2s",
+              }}
+            >
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+          {transitsOpen && (
+            <div className="transits-body">
+              <div style={{ marginBottom: 8 }}>
+                <div style={{ color: "#aaa", fontSize: 10, marginBottom: 4, textTransform: "uppercase", letterSpacing: 1 }}>
+                  Eastbound (exited strait) →
+                </div>
+                {transits.eastbound.total === 0 ? (
+                  <span style={{ color: "#555" }}>None detected</span>
+                ) : (
+                  <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+                    {transits.eastbound.green > 0 && <span><span style={{ color: "#00cc66" }}>{transits.eastbound.green}</span> US</span>}
+                    {transits.eastbound.blue > 0 && <span><span style={{ color: "#4488ff" }}>{transits.eastbound.blue}</span> EU</span>}
+                    {transits.eastbound.red > 0 && <span><span style={{ color: "#ff4444" }}>{transits.eastbound.red}</span> CN/RU</span>}
+                    {transits.eastbound.yellow > 0 && <span><span style={{ color: "#ddaa00" }}>{transits.eastbound.yellow}</span> Other</span>}
+                    {transits.eastbound.shadow > 0 && <span><span style={{ color: SHADOW_COLOR }}>{transits.eastbound.shadow}</span> Shadow</span>}
+                  </div>
+                )}
+              </div>
+              <div>
+                <div style={{ color: "#aaa", fontSize: 10, marginBottom: 4, textTransform: "uppercase", letterSpacing: 1 }}>
+                  ← Westbound (entered gulf)
+                </div>
+                {transits.westbound.total === 0 ? (
+                  <span style={{ color: "#555" }}>None detected</span>
+                ) : (
+                  <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+                    {transits.westbound.green > 0 && <span><span style={{ color: "#00cc66" }}>{transits.westbound.green}</span> US</span>}
+                    {transits.westbound.blue > 0 && <span><span style={{ color: "#4488ff" }}>{transits.westbound.blue}</span> EU</span>}
+                    {transits.westbound.red > 0 && <span><span style={{ color: "#ff4444" }}>{transits.westbound.red}</span> CN/RU</span>}
+                    {transits.westbound.yellow > 0 && <span><span style={{ color: "#ddaa00" }}>{transits.westbound.yellow}</span> Other</span>}
+                    {transits.westbound.shadow > 0 && <span><span style={{ color: SHADOW_COLOR }}>{transits.westbound.shadow}</span> Shadow</span>}
+                  </div>
+                )}
+              </div>
+              <div style={{ color: "#555", fontSize: 9, marginTop: 8, fontStyle: "italic" }}>
+                Estimated from snapshot diffs
+              </div>
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Footer attribution */}
       <div className="footer-bar">
