@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { refreshVessels } from "@/lib/vessel-api";
 
 export const dynamic = "force-dynamic";
@@ -12,6 +13,7 @@ export async function GET(request: Request) {
 
   try {
     const data = await refreshVessels();
+    revalidatePath("/api/ships");
     return NextResponse.json({
       ok: true,
       fetchedAt: data.fetchedAt,

@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
-import { refreshVessels, toGeoJSON, listSnapshots, buildTrails } from "@/lib/vessel-api";
+import { revalidatePath } from "next/cache";
+import { refreshVessels, toGeoJSON, listSnapshots, getCachedTrails } from "@/lib/vessel-api";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -12,16 +13,19 @@ export async function POST(request: Request) {
 
   try {
     const data = await refreshVessels();
-    const snapshots = await listSnapshots();
-    const currentId = snapshots[0]?.id;
-    const trails = currentId
-      ? await buildTrails(currentId)
-      : { type: "FeatureCollection", features: [] };
+    const [snapshots, trails] = await Promise.all([
+      listSnapshots(),
+      getCachedTrails(),
+    ]);
+
+    // Bust the CDN cache for the main data endpoint
+    revalidatePath("/api/ships");
+
     return NextResponse.json({
       fetchedAt: data.fetchedAt,
       count: data.vessels.length,
       geojson: toGeoJSON(data),
-      trails,
+      trails: trails ?? { type: "FeatureCollection", features: [] },
       snapshots,
     });
   } catch (err) {

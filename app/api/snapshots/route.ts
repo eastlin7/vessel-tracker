@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { listSnapshots, getSnapshot, toGeoJSON, buildTrails } from "@/lib/vessel-api";
+import { listSnapshots, getSnapshot, toGeoJSON, getTrailsForSnapshot } from "@/lib/vessel-api";
 
 export const dynamic = "force-dynamic";
 
@@ -18,7 +18,7 @@ export async function GET(request: Request) {
   }
 
   const geojson = toGeoJSON(data);
-  const trails = await buildTrails(id);
+  const trails = await getTrailsForSnapshot(id);
 
   return NextResponse.json({
     fetchedAt: data.fetchedAt,

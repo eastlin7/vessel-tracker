@@ -1,4 +1,4 @@
-import { put, list } from "@vercel/blob";
+import { put, list, head } from "@vercel/blob";
 import { lookupFlag } from "./mid-to-country";
 import alignments from "../data/alignments.json";
 import shadowFleetData from "../data/shadow-fleet.json";
@@ -135,13 +135,27 @@ async function writeBlob(name: string, data: unknown): Promise<string> {
   return blob.url;
 }
 
+// Cache blob URLs so we only resolve each path once per invocation
+const blobUrlCache = new Map<string, string>();
+
+async function resolveBlobUrl(name: string): Promise<string | null> {
+  const path = `${BLOB_PREFIX}/${name}`;
+  const cached = blobUrlCache.get(path);
+  if (cached) return cached;
+  try {
+    const blob = await head(path);
+    blobUrlCache.set(path, blob.url);
+    return blob.url;
+  } catch {
+    return null;
+  }
+}
+
 async function readBlob<T>(name: string): Promise<T | null> {
   try {
-    // List to find the blob URL first
-    const { blobs } = await list({ prefix: `${BLOB_PREFIX}/${name}` });
-    const blob = blobs.find((b) => b.pathname === `${BLOB_PREFIX}/${name}`);
-    if (!blob) return null;
-    const res = await fetch(blob.url);
+    const url = await resolveBlobUrl(name);
+    if (!url) return null;
+    const res = await fetch(url);
     if (!res.ok) return null;
     return (await res.json()) as T;
   } catch {
@@ -206,6 +220,7 @@ export async function refreshVessels(): Promise<CachedData> {
   ]);
   await Promise.all([
     writeBlob("trails.json", trails),
+    writeBlob(`trails/${snapshotId}.json`, trails),
     transits ? writeBlob("transits.json", transits) : Promise.resolve(),
   ]);
   console.log(`[VesselAPI] Precomputed trails + transits`);
@@ -227,6 +242,17 @@ export async function getCachedVessels(): Promise<CachedData | null> {
 
 export async function getCachedTrails(): Promise<GeoJSON.FeatureCollection | null> {
   return readBlob<GeoJSON.FeatureCollection>("trails.json");
+}
+
+/** Get trails for a specific snapshot — reads cached version or computes + stores */
+export async function getTrailsForSnapshot(snapshotId: string): Promise<GeoJSON.FeatureCollection> {
+  const cached = await readBlob<GeoJSON.FeatureCollection>(`trails/${snapshotId}.json`);
+  if (cached) return cached;
+
+  const trails = await buildTrails(snapshotId);
+  // Store for next time (fire and forget)
+  writeBlob(`trails/${snapshotId}.json`, trails).catch(() => {});
+  return trails;
 }
 
 export async function getCachedTransits(): Promise<TransitStats | null> {

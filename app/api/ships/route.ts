@@ -28,14 +28,21 @@ export async function GET() {
   const transits = preTransits
     ?? (snapshots.length >= 2 ? await computeTransits() : null);
 
-  return NextResponse.json({
-    ...geojson,
-    _meta: {
-      fetchedAt: cached.fetchedAt,
-      count: cached.vessels.length,
-      snapshots,
-      transits,
+  return NextResponse.json(
+    {
+      ...geojson,
+      _meta: {
+        fetchedAt: cached.fetchedAt,
+        count: cached.vessels.length,
+        snapshots,
+        transits,
+      },
+      trails,
     },
-    trails,
-  });
+    {
+      headers: {
+        "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=60",
+      },
+    }
+  );
 }
